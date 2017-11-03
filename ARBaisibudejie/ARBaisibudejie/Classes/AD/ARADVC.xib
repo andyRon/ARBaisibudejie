@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ARADVC">
+            <connections>
+                <outlet property="adContainView" destination="Bex-H4-4iL" id="w0L-cw-fUP"/>
+                <outlet property="jumpBtn" destination="brR-Yd-l2y" id="Pbb-Xi-FVK"/>
+                <outlet property="launchImageView" destination="grp-gJ-YOQ" id="wE2-pX-Wk6"/>
+                <outlet property="progressV" destination="YO8-ga-YrE" id="4rI-gQ-KhA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="grp-gJ-YOQ">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bex-H4-4iL">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YO8-ga-YrE" customClass="DALabeledCircularProgressView">
+                    <rect key="frame" x="305" y="20" width="50" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brR-Yd-l2y">
+                    <rect key="frame" x="305" y="20" width="50" height="50"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="4Ol-NN-RPb"/>
+                        <constraint firstAttribute="height" constant="50" id="aPb-j7-qrw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="跳转"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Bex-H4-4iL" secondAttribute="bottom" id="8Z6-Ze-RpG"/>
+                <constraint firstItem="grp-gJ-YOQ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="IQa-dS-msJ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Bex-H4-4iL" secondAttribute="trailing" id="Iga-ZV-xhv"/>
+                <constraint firstItem="YO8-ga-YrE" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="LgV-LF-MB1"/>
+                <constraint firstItem="brR-Yd-l2y" firstAttribute="width" secondItem="YO8-ga-YrE" secondAttribute="width" id="Mby-c6-aqg"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="brR-Yd-l2y" secondAttribute="trailing" constant="20" id="Mry-WY-pNN"/>
+                <constraint firstItem="brR-Yd-l2y" firstAttribute="centerY" secondItem="YO8-ga-YrE" secondAttribute="centerY" id="UsI-gD-VQF"/>
+                <constraint firstItem="brR-Yd-l2y" firstAttribute="height" secondItem="YO8-ga-YrE" secondAttribute="height" id="VLb-uj-sM5"/>
+                <constraint firstItem="Bex-H4-4iL" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="fCL-NW-QR6"/>
+                <constraint firstItem="grp-gJ-YOQ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="nss-cE-JyR"/>
+                <constraint firstItem="brR-Yd-l2y" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="r94-Zh-b35"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="grp-gJ-YOQ" secondAttribute="trailing" id="slx-LM-v3U"/>
+                <constraint firstItem="brR-Yd-l2y" firstAttribute="centerX" secondItem="YO8-ga-YrE" secondAttribute="centerX" id="w73-mh-bxz"/>
+                <constraint firstItem="Bex-H4-4iL" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="wLJ-A8-yy4"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="grp-gJ-YOQ" secondAttribute="bottom" id="wUd-Rh-rA1"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="YO8-ga-YrE" secondAttribute="trailing" constant="20" id="x00-2R-gJt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

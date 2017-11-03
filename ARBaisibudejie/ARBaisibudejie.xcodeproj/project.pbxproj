@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F17E7DDADEA2DC117C7B0BB /* libPods-ARBaisibudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C803E8EF9228FC11804714 /* libPods-ARBaisibudejie.a */; };
+		EFCF86871FAC4DAC000D9120 /* ARADVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCF86851FAC4DAC000D9120 /* ARADVC.m */; };
+		EFCF86881FAC4DAC000D9120 /* ARADVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFCF86861FAC4DAC000D9120 /* ARADVC.xib */; };
+		EFDD19DE1FAB887B00C9F54A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19DD1FAB887B00C9F54A /* AppDelegate.m */; };
+		EFDD19E11FAB887B00C9F54A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19E01FAB887B00C9F54A /* ViewController.m */; };
+		EFDD19E41FAB887B00C9F54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD19E21FAB887B00C9F54A /* Main.storyboard */; };
+		EFDD19E61FAB887B00C9F54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDD19E51FAB887B00C9F54A /* Assets.xcassets */; };
+		EFDD19E91FAB887B00C9F54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD19E71FAB887B00C9F54A /* LaunchScreen.storyboard */; };
+		EFDD19EC1FAB887B00C9F54A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19EB1FAB887B00C9F54A /* main.m */; };
+		EFDD19F51FAC2ED000C9F54A /* ARConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19F41FAC2ED000C9F54A /* ARConst.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		075D9C78C4FCE8AF48C69430 /* Pods-ARBaisibudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBaisibudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARBaisibudejie/Pods-ARBaisibudejie.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9E1AB918C0268CDE774B08 /* Pods-ARBaisibudejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBaisibudejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARBaisibudejie/Pods-ARBaisibudejie.release.xcconfig"; sourceTree = "<group>"; };
+		91C803E8EF9228FC11804714 /* libPods-ARBaisibudejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARBaisibudejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCF86841FAC4DAC000D9120 /* ARADVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARADVC.h; sourceTree = "<group>"; };
+		EFCF86851FAC4DAC000D9120 /* ARADVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARADVC.m; sourceTree = "<group>"; };
+		EFCF86861FAC4DAC000D9120 /* ARADVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARADVC.xib; sourceTree = "<group>"; };
+		EFDD19D91FAB887B00C9F54A /* ARBaisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBaisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDD19DC1FAB887B00C9F54A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFDD19DD1FAB887B00C9F54A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFDD19DF1FAB887B00C9F54A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFDD19E01FAB887B00C9F54A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFDD19E31FAB887B00C9F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDD19E51FAB887B00C9F54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDD19E81FAB887B00C9F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFDD19EA1FAB887B00C9F54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDD19EB1FAB887B00C9F54A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFDD19F31FAC2ED000C9F54A /* ARConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARConst.h; sourceTree = "<group>"; };
+		EFDD19F41FAC2ED000C9F54A /* ARConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARConst.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDD19D61FAB887B00C9F54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F17E7DDADEA2DC117C7B0BB /* libPods-ARBaisibudejie.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C10C7860B08893DDC44F6CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				075D9C78C4FCE8AF48C69430 /* Pods-ARBaisibudejie.debug.xcconfig */,
+				6F9E1AB918C0268CDE774B08 /* Pods-ARBaisibudejie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7950EC80A93B113689CC39AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91C803E8EF9228FC11804714 /* libPods-ARBaisibudejie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFCF86891FAC4DB9000D9120 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF86841FAC4DAC000D9120 /* ARADVC.h */,
+				EFCF86851FAC4DAC000D9120 /* ARADVC.m */,
+				EFCF86861FAC4DAC000D9120 /* ARADVC.xib */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		EFDD19D01FAB887B00C9F54A = {
+			isa = PBXGroup;
+			children = (
+				EFDD19DB1FAB887B00C9F54A /* ARBaisibudejie */,
+				EFDD19DA1FAB887B00C9F54A /* Products */,
+				2C10C7860B08893DDC44F6CF /* Pods */,
+				7950EC80A93B113689CC39AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDD19DA1FAB887B00C9F54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD19D91FAB887B00C9F54A /* ARBaisibudejie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDD19DB1FAB887B00C9F54A /* ARBaisibudejie */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD19F21FAC2DC200C9F54A /* Classes */,
+				EFDD19DF1FAB887B00C9F54A /* ViewController.h */,
+				EFDD19E01FAB887B00C9F54A /* ViewController.m */,
+				EFDD19E21FAB887B00C9F54A /* Main.storyboard */,
+				EFDD19E51FAB887B00C9F54A /* Assets.xcassets */,
+				EFDD19E71FAB887B00C9F54A /* LaunchScreen.storyboard */,
+				EFDD19EA1FAB887B00C9F54A /* Info.plist */,
+			);
+			path = ARBaisibudejie;
+			sourceTree = "<group>";
+		};
+		EFDD19F21FAC2DC200C9F54A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFCF86891FAC4DB9000D9120 /* AD */,
+				EFDD19DC1FAB887B00C9F54A /* AppDelegate.h */,
+				EFDD19DD1FAB887B00C9F54A /* AppDelegate.m */,
+				EFDD19EB1FAB887B00C9F54A /* main.m */,
+				EFDD19F31FAC2ED000C9F54A /* ARConst.h */,
+				EFDD19F41FAC2ED000C9F54A /* ARConst.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDD19D81FAB887B00C9F54A /* ARBaisibudejie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDD19EF1FAB887B00C9F54A /* Build configuration list for PBXNativeTarget "ARBaisibudejie" */;
+			buildPhases = (
+				B635A4AC4AA029146BD1B0EF /* [CP] Check Pods Manifest.lock */,
+				EFDD19D51FAB887B00C9F54A /* Sources */,
+				EFDD19D61FAB887B00C9F54A /* Frameworks */,
+				EFDD19D71FAB887B00C9F54A /* Resources */,
+				E1E6AB0EC20F8A1724401F2D /* [CP] Embed Pods Frameworks */,
+				9A7B64EB9D08E6914E2CBDBB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARBaisibudejie;
+			productName = ARBaisibudejie;
+			productReference = EFDD19D91FAB887B00C9F54A /* ARBaisibudejie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDD19D11FAB887B00C9F54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = andyron;
+				TargetAttributes = {
+					EFDD19D81FAB887B00C9F54A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFDD19D41FAB887B00C9F54A /* Build configuration list for PBXProject "ARBaisibudejie" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDD19D01FAB887B00C9F54A;
+			productRefGroup = EFDD19DA1FAB887B00C9F54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDD19D81FAB887B00C9F54A /* ARBaisibudejie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDD19D71FAB887B00C9F54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCF86881FAC4DAC000D9120 /* ARADVC.xib in Resources */,
+				EFDD19E91FAB887B00C9F54A /* LaunchScreen.storyboard in Resources */,
+				EFDD19E61FAB887B00C9F54A /* Assets.xcassets in Resources */,
+				EFDD19E41FAB887B00C9F54A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A7B64EB9D08E6914E2CBDBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARBaisibudejie/Pods-ARBaisibudejie-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARBaisibudejie/Pods-ARBaisibudejie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B635A4AC4AA029146BD1B0EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARBaisibudejie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E6AB0EC20F8A1724401F2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARBaisibudejie/Pods-ARBaisibudejie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDD19D51FAB887B00C9F54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDD19E11FAB887B00C9F54A /* ViewController.m in Sources */,
+				EFDD19EC1FAB887B00C9F54A /* main.m in Sources */,
+				EFDD19F51FAC2ED000C9F54A /* ARConst.m in Sources */,
+				EFCF86871FAC4DAC000D9120 /* ARADVC.m in Sources */,
+				EFDD19DE1FAB887B00C9F54A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFDD19E21FAB887B00C9F54A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDD19E31FAB887B00C9F54A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDD19E71FAB887B00C9F54A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDD19E81FAB887B00C9F54A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDD19ED1FAB887B00C9F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFDD19EE1FAB887B00C9F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDD19F01FAB887B00C9F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075D9C78C4FCE8AF48C69430 /* Pods-ARBaisibudejie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = ARBaisibudejie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.ARBaisibudejie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDD19F11FAB887B00C9F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9E1AB918C0268CDE774B08 /* Pods-ARBaisibudejie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZHNA975N38;
+				INFOPLIST_FILE = ARBaisibudejie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.ARBaisibudejie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDD19D41FAB887B00C9F54A /* Build configuration list for PBXProject "ARBaisibudejie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDD19ED1FAB887B00C9F54A /* Debug */,
+				EFDD19EE1FAB887B00C9F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDD19EF1FAB887B00C9F54A /* Build configuration list for PBXNativeTarget "ARBaisibudejie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDD19F01FAB887B00C9F54A /* Debug */,
+				EFDD19F11FAB887B00C9F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDD19D11FAB887B00C9F54A /* Project object */;
+}
