@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ARADVC.h"
+#import "ARTopWindow.h"
+#import <AFNetworking.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +19,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[ARADVC alloc] init];
+    [self.window makeKeyAndVisible];
+    
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
     return YES;
 }
 

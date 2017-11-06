@@ -10,7 +10,6 @@
 //      github: https://github.com/andyRon
 //
 
-#import "ARConst.h"
 #import <Foundation/Foundation.h>
 
 CGFloat const TextHeightConstraint = 120;

@@ -8,12 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		4F17E7DDADEA2DC117C7B0BB /* libPods-ARBaisibudejie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C803E8EF9228FC11804714 /* libPods-ARBaisibudejie.a */; };
+		EF1B2BF51FACA56C0009559B /* ARADM.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2BF41FACA56C0009559B /* ARADM.m */; };
+		EF1B2BF91FADAB5C0009559B /* ARMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2BF81FADAB5C0009559B /* ARMainVC.m */; };
+		EF1B2C001FADAEF30009559B /* ARTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2BFF1FADAEF30009559B /* ARTabBar.m */; };
+		EF1B2C041FADAF8A0009559B /* ARPushGuideV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C031FADAF8A0009559B /* ARPushGuideV.m */; };
+		EF1B2C061FADAFB20009559B /* ARPushGuideV.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1B2C051FADAFB20009559B /* ARPushGuideV.xib */; };
+		EF1B2C0B1FADB3E90009559B /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C0A1FADB3E90009559B /* UIView+frame.m */; };
+		EF1B2C0F1FADB6A80009559B /* UIView+ARSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C0E1FADB6A80009559B /* UIView+ARSegment.m */; };
+		EF1B2C141FADB9060009559B /* ARPublishV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C131FADB9060009559B /* ARPublishV.m */; };
+		EF1B2C161FADB91B0009559B /* ARPublishV.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1B2C151FADB91B0009559B /* ARPublishV.xib */; };
+		EF1B2C1A1FAF4BE70009559B /* ARPostWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C191FAF4BE70009559B /* ARPostWordVC.m */; };
+		EF1B2C1D1FAF4D1C0009559B /* ARPlaceholderTextV.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C1C1FAF4D1C0009559B /* ARPlaceholderTextV.m */; };
+		EF1B2C201FAFF20D0009559B /* ARAddToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C1F1FAFF20D0009559B /* ARAddToolBar.m */; };
+		EF1B2C221FAFF23A0009559B /* ARAddToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1B2C211FAFF23A0009559B /* ARAddToolBar.xib */; };
+		EF1B2C241FB003BF0009559B /* ARConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C231FB003BF0009559B /* ARConst.m */; };
+		EF1B2C291FB006990009559B /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C281FB006990009559B /* UIImage+image.m */; };
+		EF1B2C2C1FB006D50009559B /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C2B1FB006D50009559B /* UIBarButtonItem+item.m */; };
+		EF1B2C2F1FB007220009559B /* UIImageView+download.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C2E1FB007220009559B /* UIImageView+download.m */; };
+		EF1B2C321FB007990009559B /* UITextField+placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C311FB007990009559B /* UITextField+placeholder.m */; };
+		EF1B2C351FB007E20009559B /* NSDate+calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C341FB007E20009559B /* NSDate+calendar.m */; };
+		EF1B2C381FB008E40009559B /* ARAddTagsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C371FB008E40009559B /* ARAddTagsVC.m */; };
+		EF1B2C3B1FB00A190009559B /* ARTagTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C3A1FB00A190009559B /* ARTagTextField.m */; };
+		EF1B2C3E1FB00B9D0009559B /* ARTagBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C3D1FB00B9D0009559B /* ARTagBtn.m */; };
+		EF1B2C471FB013E90009559B /* ARNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C461FB013E90009559B /* ARNavigationVC.m */; };
+		EF1B2C4A1FB02DF40009559B /* ARTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1B2C491FB02DF40009559B /* ARTopWindow.m */; };
+		EF8F7E7E1FB042A200084242 /* ARFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F7E7D1FB042A200084242 /* ARFileTool.m */; };
+		EF8F7E811FB044BF00084242 /* ARNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F7E801FB044BF00084242 /* ARNetworkTools.m */; };
+		EF8F7E851FB0460C00084242 /* ARSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F7E841FB0460C00084242 /* ARSettingVC.m */; };
+		EF8F7E8C1FB048D200084242 /* ARSquareM.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F7E8B1FB048D200084242 /* ARSquareM.m */; };
+		EF8F7E901FB0493D00084242 /* ARSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F7E8E1FB0493D00084242 /* ARSquareCell.m */; };
+		EF8F7E911FB0493D00084242 /* ARSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF8F7E8F1FB0493D00084242 /* ARSquareCell.xib */; };
+		EF8F7E981FB04BE600084242 /* ARWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F7E961FB04BE600084242 /* ARWebVC.m */; };
+		EF8F7E991FB04BE600084242 /* ARWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF8F7E971FB04BE600084242 /* ARWebVC.xib */; };
 		EFCF86871FAC4DAC000D9120 /* ARADVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCF86851FAC4DAC000D9120 /* ARADVC.m */; };
 		EFCF86881FAC4DAC000D9120 /* ARADVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFCF86861FAC4DAC000D9120 /* ARADVC.xib */; };
 		EFDD19DE1FAB887B00C9F54A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19DD1FAB887B00C9F54A /* AppDelegate.m */; };
-		EFDD19E11FAB887B00C9F54A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19E01FAB887B00C9F54A /* ViewController.m */; };
 		EFDD19E41FAB887B00C9F54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD19E21FAB887B00C9F54A /* Main.storyboard */; };
-		EFDD19E61FAB887B00C9F54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDD19E51FAB887B00C9F54A /* Assets.xcassets */; };
 		EFDD19E91FAB887B00C9F54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD19E71FAB887B00C9F54A /* LaunchScreen.storyboard */; };
 		EFDD19EC1FAB887B00C9F54A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19EB1FAB887B00C9F54A /* main.m */; };
 		EFDD19F51FAC2ED000C9F54A /* ARConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19F41FAC2ED000C9F54A /* ARConst.m */; };
@@ -23,16 +53,74 @@
 		075D9C78C4FCE8AF48C69430 /* Pods-ARBaisibudejie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBaisibudejie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARBaisibudejie/Pods-ARBaisibudejie.debug.xcconfig"; sourceTree = "<group>"; };
 		6F9E1AB918C0268CDE774B08 /* Pods-ARBaisibudejie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBaisibudejie.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARBaisibudejie/Pods-ARBaisibudejie.release.xcconfig"; sourceTree = "<group>"; };
 		91C803E8EF9228FC11804714 /* libPods-ARBaisibudejie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARBaisibudejie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1B2BF31FACA56C0009559B /* ARADM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARADM.h; sourceTree = "<group>"; };
+		EF1B2BF41FACA56C0009559B /* ARADM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARADM.m; sourceTree = "<group>"; };
+		EF1B2BF71FADAB5C0009559B /* ARMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARMainVC.h; sourceTree = "<group>"; };
+		EF1B2BF81FADAB5C0009559B /* ARMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARMainVC.m; sourceTree = "<group>"; };
+		EF1B2BFA1FADAE430009559B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1B2BFE1FADAEF30009559B /* ARTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTabBar.h; sourceTree = "<group>"; };
+		EF1B2BFF1FADAEF30009559B /* ARTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTabBar.m; sourceTree = "<group>"; };
+		EF1B2C021FADAF8A0009559B /* ARPushGuideV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPushGuideV.h; sourceTree = "<group>"; };
+		EF1B2C031FADAF8A0009559B /* ARPushGuideV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPushGuideV.m; sourceTree = "<group>"; };
+		EF1B2C051FADAFB20009559B /* ARPushGuideV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARPushGuideV.xib; sourceTree = "<group>"; };
+		EF1B2C091FADB3E90009559B /* UIView+frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		EF1B2C0A1FADB3E90009559B /* UIView+frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		EF1B2C0D1FADB6A80009559B /* UIView+ARSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ARSegment.h"; sourceTree = "<group>"; };
+		EF1B2C0E1FADB6A80009559B /* UIView+ARSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ARSegment.m"; sourceTree = "<group>"; };
+		EF1B2C121FADB9060009559B /* ARPublishV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPublishV.h; sourceTree = "<group>"; };
+		EF1B2C131FADB9060009559B /* ARPublishV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPublishV.m; sourceTree = "<group>"; };
+		EF1B2C151FADB91B0009559B /* ARPublishV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARPublishV.xib; sourceTree = "<group>"; };
+		EF1B2C181FAF4BE70009559B /* ARPostWordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPostWordVC.h; sourceTree = "<group>"; };
+		EF1B2C191FAF4BE70009559B /* ARPostWordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPostWordVC.m; sourceTree = "<group>"; };
+		EF1B2C1B1FAF4D1C0009559B /* ARPlaceholderTextV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPlaceholderTextV.h; sourceTree = "<group>"; };
+		EF1B2C1C1FAF4D1C0009559B /* ARPlaceholderTextV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPlaceholderTextV.m; sourceTree = "<group>"; };
+		EF1B2C1E1FAFF20D0009559B /* ARAddToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAddToolBar.h; sourceTree = "<group>"; };
+		EF1B2C1F1FAFF20D0009559B /* ARAddToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAddToolBar.m; sourceTree = "<group>"; };
+		EF1B2C211FAFF23A0009559B /* ARAddToolBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARAddToolBar.xib; sourceTree = "<group>"; };
+		EF1B2C231FB003BF0009559B /* ARConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARConst.m; sourceTree = "<group>"; };
+		EF1B2C251FB004AA0009559B /* ARBaisibudejie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARBaisibudejie.pch; sourceTree = "<group>"; };
+		EF1B2C261FB005000009559B /* ARConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARConst.h; sourceTree = "<group>"; };
+		EF1B2C271FB006990009559B /* UIImage+image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		EF1B2C281FB006990009559B /* UIImage+image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		EF1B2C2A1FB006D50009559B /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
+		EF1B2C2B1FB006D50009559B /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		EF1B2C2D1FB007220009559B /* UIImageView+download.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+download.h"; sourceTree = "<group>"; };
+		EF1B2C2E1FB007220009559B /* UIImageView+download.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+download.m"; sourceTree = "<group>"; };
+		EF1B2C301FB007990009559B /* UITextField+placeholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+placeholder.h"; sourceTree = "<group>"; };
+		EF1B2C311FB007990009559B /* UITextField+placeholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+placeholder.m"; sourceTree = "<group>"; };
+		EF1B2C331FB007E20009559B /* NSDate+calendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+calendar.h"; sourceTree = "<group>"; };
+		EF1B2C341FB007E20009559B /* NSDate+calendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+calendar.m"; sourceTree = "<group>"; };
+		EF1B2C361FB008E40009559B /* ARAddTagsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAddTagsVC.h; sourceTree = "<group>"; };
+		EF1B2C371FB008E40009559B /* ARAddTagsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAddTagsVC.m; sourceTree = "<group>"; };
+		EF1B2C391FB00A190009559B /* ARTagTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTagTextField.h; sourceTree = "<group>"; };
+		EF1B2C3A1FB00A190009559B /* ARTagTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTagTextField.m; sourceTree = "<group>"; };
+		EF1B2C3C1FB00B9D0009559B /* ARTagBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTagBtn.h; sourceTree = "<group>"; };
+		EF1B2C3D1FB00B9D0009559B /* ARTagBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTagBtn.m; sourceTree = "<group>"; };
+		EF1B2C451FB013E90009559B /* ARNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNavigationVC.h; sourceTree = "<group>"; };
+		EF1B2C461FB013E90009559B /* ARNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNavigationVC.m; sourceTree = "<group>"; };
+		EF1B2C481FB02DF40009559B /* ARTopWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTopWindow.h; sourceTree = "<group>"; };
+		EF1B2C491FB02DF40009559B /* ARTopWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTopWindow.m; sourceTree = "<group>"; };
+		EF8F7E7C1FB042A200084242 /* ARFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARFileTool.h; sourceTree = "<group>"; };
+		EF8F7E7D1FB042A200084242 /* ARFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFileTool.m; sourceTree = "<group>"; };
+		EF8F7E7F1FB044BF00084242 /* ARNetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNetworkTools.h; sourceTree = "<group>"; };
+		EF8F7E801FB044BF00084242 /* ARNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNetworkTools.m; sourceTree = "<group>"; };
+		EF8F7E831FB0460C00084242 /* ARSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSettingVC.h; sourceTree = "<group>"; };
+		EF8F7E841FB0460C00084242 /* ARSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARSettingVC.m; sourceTree = "<group>"; };
+		EF8F7E8A1FB048D200084242 /* ARSquareM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSquareM.h; sourceTree = "<group>"; };
+		EF8F7E8B1FB048D200084242 /* ARSquareM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARSquareM.m; sourceTree = "<group>"; };
+		EF8F7E8D1FB0493D00084242 /* ARSquareCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSquareCell.h; sourceTree = "<group>"; };
+		EF8F7E8E1FB0493D00084242 /* ARSquareCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARSquareCell.m; sourceTree = "<group>"; };
+		EF8F7E8F1FB0493D00084242 /* ARSquareCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARSquareCell.xib; sourceTree = "<group>"; };
+		EF8F7E951FB04BE600084242 /* ARWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARWebVC.h; sourceTree = "<group>"; };
+		EF8F7E961FB04BE600084242 /* ARWebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARWebVC.m; sourceTree = "<group>"; };
+		EF8F7E971FB04BE600084242 /* ARWebVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARWebVC.xib; sourceTree = "<group>"; };
 		EFCF86841FAC4DAC000D9120 /* ARADVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARADVC.h; sourceTree = "<group>"; };
 		EFCF86851FAC4DAC000D9120 /* ARADVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARADVC.m; sourceTree = "<group>"; };
 		EFCF86861FAC4DAC000D9120 /* ARADVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARADVC.xib; sourceTree = "<group>"; };
 		EFDD19D91FAB887B00C9F54A /* ARBaisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBaisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDD19DC1FAB887B00C9F54A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFDD19DD1FAB887B00C9F54A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EFDD19DF1FAB887B00C9F54A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFDD19E01FAB887B00C9F54A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFDD19E31FAB887B00C9F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EFDD19E51FAB887B00C9F54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDD19E81FAB887B00C9F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDD19EA1FAB887B00C9F54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFDD19EB1FAB887B00C9F54A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,12 +157,203 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EFCF86891FAC4DB9000D9120 /* AD */ = {
+		EF1B2BF61FADAB300009559B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2BFD1FADAEC00009559B /* C */,
+				EF1B2C011FADAF0E0009559B /* V */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EF1B2BFB1FADAE9E0009559B /* C */ = {
 			isa = PBXGroup;
 			children = (
 				EFCF86841FAC4DAC000D9120 /* ARADVC.h */,
 				EFCF86851FAC4DAC000D9120 /* ARADVC.m */,
 				EFCF86861FAC4DAC000D9120 /* ARADVC.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		EF1B2BFC1FADAEB20009559B /* M */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2BF31FACA56C0009559B /* ARADM.h */,
+				EF1B2BF41FACA56C0009559B /* ARADM.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		EF1B2BFD1FADAEC00009559B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2BF71FADAB5C0009559B /* ARMainVC.h */,
+				EF1B2BF81FADAB5C0009559B /* ARMainVC.m */,
+				EF1B2C451FB013E90009559B /* ARNavigationVC.h */,
+				EF1B2C461FB013E90009559B /* ARNavigationVC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		EF1B2C011FADAF0E0009559B /* V */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2BFE1FADAEF30009559B /* ARTabBar.h */,
+				EF1B2BFF1FADAEF30009559B /* ARTabBar.m */,
+				EF1B2C021FADAF8A0009559B /* ARPushGuideV.h */,
+				EF1B2C031FADAF8A0009559B /* ARPushGuideV.m */,
+				EF1B2C051FADAFB20009559B /* ARPushGuideV.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		EF1B2C071FADB39F0009559B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F7E7B1FB0429200084242 /* Tool */,
+				EF1B2C0C1FADB6860009559B /* Lib */,
+				EF1B2C081FADB3AD0009559B /* Category */,
+				EF1B2C261FB005000009559B /* ARConst.h */,
+				EF1B2C231FB003BF0009559B /* ARConst.m */,
+				EF1B2C251FB004AA0009559B /* ARBaisibudejie.pch */,
+				EF1B2C481FB02DF40009559B /* ARTopWindow.h */,
+				EF1B2C491FB02DF40009559B /* ARTopWindow.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EF1B2C081FADB3AD0009559B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2C091FADB3E90009559B /* UIView+frame.h */,
+				EF1B2C0A1FADB3E90009559B /* UIView+frame.m */,
+				EF1B2C271FB006990009559B /* UIImage+image.h */,
+				EF1B2C281FB006990009559B /* UIImage+image.m */,
+				EF1B2C2A1FB006D50009559B /* UIBarButtonItem+item.h */,
+				EF1B2C2B1FB006D50009559B /* UIBarButtonItem+item.m */,
+				EF1B2C2D1FB007220009559B /* UIImageView+download.h */,
+				EF1B2C2E1FB007220009559B /* UIImageView+download.m */,
+				EF1B2C301FB007990009559B /* UITextField+placeholder.h */,
+				EF1B2C311FB007990009559B /* UITextField+placeholder.m */,
+				EF1B2C331FB007E20009559B /* NSDate+calendar.h */,
+				EF1B2C341FB007E20009559B /* NSDate+calendar.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EF1B2C0C1FADB6860009559B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2C0D1FADB6A80009559B /* UIView+ARSegment.h */,
+				EF1B2C0E1FADB6A80009559B /* UIView+ARSegment.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EF1B2C101FADB8D10009559B /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2C171FAF4BB40009559B /* C */,
+				EF1B2C111FADB8D90009559B /* V */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		EF1B2C111FADB8D90009559B /* V */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2C121FADB9060009559B /* ARPublishV.h */,
+				EF1B2C131FADB9060009559B /* ARPublishV.m */,
+				EF1B2C151FADB91B0009559B /* ARPublishV.xib */,
+				EF1B2C1B1FAF4D1C0009559B /* ARPlaceholderTextV.h */,
+				EF1B2C1C1FAF4D1C0009559B /* ARPlaceholderTextV.m */,
+				EF1B2C1E1FAFF20D0009559B /* ARAddToolBar.h */,
+				EF1B2C1F1FAFF20D0009559B /* ARAddToolBar.m */,
+				EF1B2C211FAFF23A0009559B /* ARAddToolBar.xib */,
+				EF1B2C391FB00A190009559B /* ARTagTextField.h */,
+				EF1B2C3A1FB00A190009559B /* ARTagTextField.m */,
+				EF1B2C3C1FB00B9D0009559B /* ARTagBtn.h */,
+				EF1B2C3D1FB00B9D0009559B /* ARTagBtn.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		EF1B2C171FAF4BB40009559B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2C181FAF4BE70009559B /* ARPostWordVC.h */,
+				EF1B2C191FAF4BE70009559B /* ARPostWordVC.m */,
+				EF1B2C361FB008E40009559B /* ARAddTagsVC.h */,
+				EF1B2C371FB008E40009559B /* ARAddTagsVC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		EF8F7E7B1FB0429200084242 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F7E7C1FB042A200084242 /* ARFileTool.h */,
+				EF8F7E7D1FB042A200084242 /* ARFileTool.m */,
+				EF8F7E7F1FB044BF00084242 /* ARNetworkTools.h */,
+				EF8F7E801FB044BF00084242 /* ARNetworkTools.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		EF8F7E821FB045DF00084242 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F7E831FB0460C00084242 /* ARSettingVC.h */,
+				EF8F7E841FB0460C00084242 /* ARSettingVC.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		EF8F7E861FB0486000084242 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F7E871FB0486800084242 /* C */,
+				EF8F7E891FB0487500084242 /* V */,
+				EF8F7E881FB0486F00084242 /* M */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		EF8F7E871FB0486800084242 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F7E951FB04BE600084242 /* ARWebVC.h */,
+				EF8F7E961FB04BE600084242 /* ARWebVC.m */,
+				EF8F7E971FB04BE600084242 /* ARWebVC.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		EF8F7E881FB0486F00084242 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F7E8A1FB048D200084242 /* ARSquareM.h */,
+				EF8F7E8B1FB048D200084242 /* ARSquareM.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		EF8F7E891FB0487500084242 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F7E8D1FB0493D00084242 /* ARSquareCell.h */,
+				EF8F7E8E1FB0493D00084242 /* ARSquareCell.m */,
+				EF8F7E8F1FB0493D00084242 /* ARSquareCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		EFCF86891FAC4DB9000D9120 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				EF1B2BFB1FADAE9E0009559B /* C */,
+				EF1B2BFC1FADAEB20009559B /* M */,
 			);
 			path = AD;
 			sourceTree = "<group>";
@@ -101,11 +380,9 @@
 			isa = PBXGroup;
 			children = (
 				EFDD19F21FAC2DC200C9F54A /* Classes */,
-				EFDD19DF1FAB887B00C9F54A /* ViewController.h */,
-				EFDD19E01FAB887B00C9F54A /* ViewController.m */,
 				EFDD19E21FAB887B00C9F54A /* Main.storyboard */,
-				EFDD19E51FAB887B00C9F54A /* Assets.xcassets */,
 				EFDD19E71FAB887B00C9F54A /* LaunchScreen.storyboard */,
+				EF1B2BFA1FADAE430009559B /* Assets.xcassets */,
 				EFDD19EA1FAB887B00C9F54A /* Info.plist */,
 			);
 			path = ARBaisibudejie;
@@ -114,7 +391,12 @@
 		EFDD19F21FAC2DC200C9F54A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EF8F7E861FB0486000084242 /* Me */,
+				EF8F7E821FB045DF00084242 /* Setting */,
+				EF1B2C101FADB8D10009559B /* Publish */,
+				EF1B2BF61FADAB300009559B /* Main */,
 				EFCF86891FAC4DB9000D9120 /* AD */,
+				EF1B2C071FADB39F0009559B /* Other */,
 				EFDD19DC1FAB887B00C9F54A /* AppDelegate.h */,
 				EFDD19DD1FAB887B00C9F54A /* AppDelegate.m */,
 				EFDD19EB1FAB887B00C9F54A /* main.m */,
@@ -185,10 +467,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1B2C161FADB91B0009559B /* ARPublishV.xib in Resources */,
+				EF1B2C061FADAFB20009559B /* ARPushGuideV.xib in Resources */,
+				EF1B2C221FAFF23A0009559B /* ARAddToolBar.xib in Resources */,
 				EFCF86881FAC4DAC000D9120 /* ARADVC.xib in Resources */,
 				EFDD19E91FAB887B00C9F54A /* LaunchScreen.storyboard in Resources */,
-				EFDD19E61FAB887B00C9F54A /* Assets.xcassets in Resources */,
 				EFDD19E41FAB887B00C9F54A /* Main.storyboard in Resources */,
+				EF8F7E991FB04BE600084242 /* ARWebVC.xib in Resources */,
+				EF8F7E911FB0493D00084242 /* ARSquareCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,11 +540,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDD19E11FAB887B00C9F54A /* ViewController.m in Sources */,
+				EF8F7E981FB04BE600084242 /* ARWebVC.m in Sources */,
+				EF8F7E7E1FB042A200084242 /* ARFileTool.m in Sources */,
+				EF1B2BF91FADAB5C0009559B /* ARMainVC.m in Sources */,
+				EF8F7E851FB0460C00084242 /* ARSettingVC.m in Sources */,
+				EF1B2C201FAFF20D0009559B /* ARAddToolBar.m in Sources */,
+				EF1B2C0F1FADB6A80009559B /* UIView+ARSegment.m in Sources */,
+				EF1B2C351FB007E20009559B /* NSDate+calendar.m in Sources */,
+				EF1B2C291FB006990009559B /* UIImage+image.m in Sources */,
+				EF1B2C141FADB9060009559B /* ARPublishV.m in Sources */,
 				EFDD19EC1FAB887B00C9F54A /* main.m in Sources */,
+				EF1B2C3E1FB00B9D0009559B /* ARTagBtn.m in Sources */,
+				EF1B2C2C1FB006D50009559B /* UIBarButtonItem+item.m in Sources */,
 				EFDD19F51FAC2ED000C9F54A /* ARConst.m in Sources */,
+				EF1B2C321FB007990009559B /* UITextField+placeholder.m in Sources */,
+				EF1B2C001FADAEF30009559B /* ARTabBar.m in Sources */,
+				EF8F7E8C1FB048D200084242 /* ARSquareM.m in Sources */,
+				EF1B2BF51FACA56C0009559B /* ARADM.m in Sources */,
+				EF1B2C1D1FAF4D1C0009559B /* ARPlaceholderTextV.m in Sources */,
+				EF1B2C041FADAF8A0009559B /* ARPushGuideV.m in Sources */,
 				EFCF86871FAC4DAC000D9120 /* ARADVC.m in Sources */,
+				EF8F7E901FB0493D00084242 /* ARSquareCell.m in Sources */,
+				EF1B2C3B1FB00A190009559B /* ARTagTextField.m in Sources */,
+				EF1B2C4A1FB02DF40009559B /* ARTopWindow.m in Sources */,
+				EF1B2C1A1FAF4BE70009559B /* ARPostWordVC.m in Sources */,
+				EF1B2C2F1FB007220009559B /* UIImageView+download.m in Sources */,
+				EF1B2C0B1FADB3E90009559B /* UIView+frame.m in Sources */,
+				EF8F7E811FB044BF00084242 /* ARNetworkTools.m in Sources */,
+				EF1B2C241FB003BF0009559B /* ARConst.m in Sources */,
 				EFDD19DE1FAB887B00C9F54A /* AppDelegate.m in Sources */,
+				EF1B2C381FB008E40009559B /* ARAddTagsVC.m in Sources */,
+				EF1B2C471FB013E90009559B /* ARNavigationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +707,34 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZHNA975N38;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ARBaisibudejie/Classes/Other/ARBaisibudejie.pch";
 				INFOPLIST_FILE = ARBaisibudejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"AFNetworking\"",
+					"-l\"DACircularProgress\"",
+					"-l\"FLAnimatedImage\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDWebImage\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"c++\"",
+					"-l\"pop\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.ARBaisibudejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,8 +748,34 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZHNA975N38;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ARBaisibudejie/Classes/Other/ARBaisibudejie.pch";
 				INFOPLIST_FILE = ARBaisibudejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-l\"AFNetworking\"",
+					"-l\"DACircularProgress\"",
+					"-l\"FLAnimatedImage\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDWebImage\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"c++\"",
+					"-l\"pop\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.andyron.ARBaisibudejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
