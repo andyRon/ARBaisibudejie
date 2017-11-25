@@ -44,7 +44,7 @@
     };
     
     void(^failureCallBack)(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) = ^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        TGLog(@"%@",error)
+        ARLog(@"%@",error)
         finished(nil,error);
     };
     
@@ -60,7 +60,7 @@
     };
     
     void(^failureCallBack)(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) = ^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        TGLog(@"%@",error)
+        ARLog(@"%@",error)
         finished(nil,error);
     };
     

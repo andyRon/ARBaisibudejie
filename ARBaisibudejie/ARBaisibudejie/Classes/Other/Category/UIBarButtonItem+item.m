@@ -42,7 +42,7 @@
     [backButton setTitle:title forState:UIControlStateNormal];
     [backButton setImage:image forState:UIControlStateNormal];
     [backButton setImage:highImage forState:UIControlStateHighlighted];
-    [backButton setTitleColor:TGColor(249, 173, 184) forState:UIControlStateNormal];
+    [backButton setTitleColor:ARColor(249, 173, 184) forState:UIControlStateNormal];
     [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
     [backButton sizeToFit];
     backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -25, 0, 0);

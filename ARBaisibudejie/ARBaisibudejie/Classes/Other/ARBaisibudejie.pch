@@ -18,11 +18,11 @@
 
 #define CachePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]
 
-#define TGAlphaColor(a,r,g,b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a]
-#define TGColor(r,g,b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1]
-#define TGGrayColor(v) TGColor(v,v,v)
-#define TGRandomColor TGColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
-#define NavTinColor [TGColor(252, 49, 89) colorWithAlphaComponent:0.9]
+#define ARAlphaColor(a,r,g,b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a]
+#define ARColor(r,g,b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1]
+#define ARGrayColor(v) ARColor(v,v,v)
+#define ARRandomColor ARColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define NavTinColor [ARColor(252, 49, 89) colorWithAlphaComponent:0.9]
 
 #define ScreenW [UIScreen mainScreen].bounds.size.width
 #define ScreenH [UIScreen mainScreen].bounds.size.height
@@ -32,16 +32,16 @@
 #define iphone5 (ScreenH == 568)
 #define iphone4 (ScreenH == 480)
 
-#define TGFunc TGLog(@"%s",__func__)
+#define ARFunc ARLog(@"表现%s",__func__)
 
 #ifdef DEBUG // 调试
-#define TGLog(...) NSLog(__VA_ARGS__);
+#define ARLog(...) NSLog(__VA_ARGS__);
 #else // 发布
-#define TGLog(...)
+#define ARLog(...)
 #endif
 
-#define TagBgColor [UIColor whiteColor]//TGColor(74,139,209)
-#define TagTitleColor TGColor(74,139,209)
+#define TagBgColor [UIColor whiteColor]//ARColor(74,139,209)
+#define TagTitleColor ARColor(74,139,209)
 #define TagFont [UIFont systemFontOfSize:14]
 #define IOS(version) ([UIDevice currentDevice].systemVersion.doubleValue >= (version))
 

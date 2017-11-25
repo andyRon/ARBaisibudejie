@@ -10,6 +10,6 @@
 
 @interface ARTagTextField : UITextField
 
-@property (nonatomic, copy) void(^deleteBlock)();
+@property (nonatomic, copy) void(^deleteBlock)(void);
 
 @end

@@ -10,6 +10,13 @@
 #import "ARADVC.h"
 #import "ARTopWindow.h"
 #import <AFNetworking.h>
+#import "ARMainVC.h"
+
+void uncaughtExceptionHandler(NSException*exception){
+    NSLog(@"CRASH: %@", exception);
+    NSLog(@"Stack Trace: %@",[exception callStackSymbols]);
+    // Internal error reporting
+}
 
 @interface AppDelegate ()
 
@@ -21,12 +28,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[ARADVC alloc] init];
+//    self.window.rootViewController = [[ARMainVC alloc] init];
     [self.window makeKeyAndVisible];
     
-    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+//    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+    
+    
+
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
     
     return YES;
 }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
