@@ -105,6 +105,56 @@
 		EFDB7E901FCA90FE00BA9EF0 /* ARVideoNewV.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7E8F1FCA90FE00BA9EF0 /* ARVideoNewV.xib */; };
 		EFDB7E931FCA931500BA9EF0 /* ARVoiceNewV.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7E921FCA931500BA9EF0 /* ARVoiceNewV.m */; };
 		EFDB7E951FCA936200BA9EF0 /* ARVoiceNewV.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7E941FCA936200BA9EF0 /* ARVoiceNewV.xib */; };
+		EFDB7E981FCAF18B00BA9EF0 /* ARLookingAroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7E971FCAF18B00BA9EF0 /* ARLookingAroundVC.m */; };
+		EFDB7E9C1FCAF22E00BA9EF0 /* ARLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7E9B1FCAF22E00BA9EF0 /* ARLayout.m */; };
+		EFDB7E9F1FCAF2FA00BA9EF0 /* ARNewestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7E9E1FCAF2FA00BA9EF0 /* ARNewestVC.m */; };
+		EFDB7EA31FCAF39500BA9EF0 /* ARTopicNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EA21FCAF39500BA9EF0 /* ARTopicNewVC.m */; };
+		EFDB7EA71FCAF42100BA9EF0 /* ARCommentNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EA51FCAF42100BA9EF0 /* ARCommentNewVC.m */; };
+		EFDB7EA81FCAF42100BA9EF0 /* ARCommentNewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7EA61FCAF42100BA9EF0 /* ARCommentNewVC.xib */; };
+		EFDB7EAC1FCAF91E00BA9EF0 /* ARRefreshOC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EAB1FCAF91E00BA9EF0 /* ARRefreshOC.m */; };
+		EFDB7EB21FCAF9D500BA9EF0 /* UIScrollView+ARRefreshOC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EB11FCAF9D500BA9EF0 /* UIScrollView+ARRefreshOC.m */; };
+		EFDB7EB51FCAFCA100BA9EF0 /* ARNewestTotalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EB41FCAFCA100BA9EF0 /* ARNewestTotalVC.m */; };
+		EFDB7EB81FCAFCBC00BA9EF0 /* ARNewestVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EB71FCAFCBC00BA9EF0 /* ARNewestVideoVC.m */; };
+		EFDB7EBB1FCAFCCE00BA9EF0 /* ARNewestPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EBA1FCAFCCE00BA9EF0 /* ARNewestPictureVC.m */; };
+		EFDB7EBE1FCAFCE100BA9EF0 /* ARNewestJokesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EBD1FCAFCE100BA9EF0 /* ARNewestJokesVC.m */; };
+		EFDB7EC11FCAFCF700BA9EF0 /* ARNewestInteractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EC01FCAFCF700BA9EF0 /* ARNewestInteractVC.m */; };
+		EFDB7EC41FCAFD0C00BA9EF0 /* ARNewestAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EC31FCAFD0C00BA9EF0 /* ARNewestAlbumVC.m */; };
+		EFDB7EC71FCAFD2500BA9EF0 /* ARNewestRedNetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EC61FCAFD2500BA9EF0 /* ARNewestRedNetVC.m */; };
+		EFDB7ECA1FCAFD3100BA9EF0 /* ARNewestVoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EC91FCAFD3100BA9EF0 /* ARNewestVoteVC.m */; };
+		EFDB7ECD1FCAFD4100BA9EF0 /* ARNewestBeautyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7ECC1FCAFD4100BA9EF0 /* ARNewestBeautyVC.m */; };
+		EFDB7ED01FCAFD5F00BA9EF0 /* ARNewestColdKnowledgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7ECF1FCAFD5F00BA9EF0 /* ARNewestColdKnowledgeVC.m */; };
+		EFDB7ED31FCAFD6C00BA9EF0 /* ARNewestGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7ED21FCAFD6C00BA9EF0 /* ARNewestGameVC.m */; };
+		EFDB7ED61FCAFD7A00BA9EF0 /* ARNewestSoundsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7ED51FCAFD7A00BA9EF0 /* ARNewestSoundsVC.m */; };
+		EFDB7EDA1FCB00AD00BA9EF0 /* ARRecommendedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7ED91FCB00AD00BA9EF0 /* ARRecommendedVC.m */; };
+		EFDB7EDD1FCB00C400BA9EF0 /* ARVideoPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EDC1FCB00C400BA9EF0 /* ARVideoPlayVC.m */; };
+		EFDB7EE01FCB011800BA9EF0 /* ARPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EDF1FCB011800BA9EF0 /* ARPictureVC.m */; };
+		EFDB7EE31FCB012B00BA9EF0 /* ARJokesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EE21FCB012B00BA9EF0 /* ARJokesVC.m */; };
+		EFDB7EE61FCB013E00BA9EF0 /* ARRankingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EE51FCB013E00BA9EF0 /* ARRankingVC.m */; };
+		EFDB7EE91FCB014C00BA9EF0 /* ARInteractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EE81FCB014C00BA9EF0 /* ARInteractVC.m */; };
+		EFDB7EEC1FCB015A00BA9EF0 /* ARRedNetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EEB1FCB015A00BA9EF0 /* ARRedNetVC.m */; };
+		EFDB7EEF1FCB016C00BA9EF0 /* ARSocietyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EEE1FCB016C00BA9EF0 /* ARSocietyVC.m */; };
+		EFDB7EF21FCB018400BA9EF0 /* ARVoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EF11FCB018400BA9EF0 /* ARVoteVC.m */; };
+		EFDB7EF51FCB019200BA9EF0 /* ARBeautyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EF41FCB019200BA9EF0 /* ARBeautyVC.m */; };
+		EFDB7EF81FCB01A500BA9EF0 /* ARColdKnowledgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EF71FCB01A500BA9EF0 /* ARColdKnowledgeVC.m */; };
+		EFDB7EFB1FCB01B000BA9EF0 /* ARGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7EFA1FCB01B000BA9EF0 /* ARGameVC.m */; };
+		EFDB7F021FCB1C0800BA9EF0 /* ARRecommendCategoryM.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F011FCB1C0800BA9EF0 /* ARRecommendCategoryM.m */; };
+		EFDB7F051FCB1C3200BA9EF0 /* ARRecommendUserM.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F041FCB1C3200BA9EF0 /* ARRecommendUserM.m */; };
+		EFDB7F081FCB1C6800BA9EF0 /* ARLoginRegisterV.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F071FCB1C6800BA9EF0 /* ARLoginRegisterV.m */; };
+		EFDB7F0A1FCB1C7B00BA9EF0 /* ARLoginRegister.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7F091FCB1C7B00BA9EF0 /* ARLoginRegister.xib */; };
+		EFDB7F0D1FCB1E2000BA9EF0 /* ARThirdLoginV.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F0C1FCB1E2000BA9EF0 /* ARThirdLoginV.m */; };
+		EFDB7F0F1FCB1E4200BA9EF0 /* ARThirdLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7F0E1FCB1E4200BA9EF0 /* ARThirdLogin.xib */; };
+		EFDB7F121FCB1E8200BA9EF0 /* ARFastBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F111FCB1E8200BA9EF0 /* ARFastBtn.m */; };
+		EFDB7F151FCB1EB000BA9EF0 /* ARTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F141FCB1EB000BA9EF0 /* ARTextField.m */; };
+		EFDB7F181FCB1EFD00BA9EF0 /* ARRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F171FCB1EFD00BA9EF0 /* ARRecommendCategoryCell.m */; };
+		EFDB7F1A1FCB1F6400BA9EF0 /* ARRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7F191FCB1F6400BA9EF0 /* ARRecommendCategoryCell.xib */; };
+		EFDB7F1E1FCB20A100BA9EF0 /* ARRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F1C1FCB20A100BA9EF0 /* ARRecommendUserCell.m */; };
+		EFDB7F1F1FCB20A100BA9EF0 /* ARRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7F1D1FCB20A100BA9EF0 /* ARRecommendUserCell.xib */; };
+		EFDB7F231FCB22F700BA9EF0 /* ARLoginRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F211FCB22F700BA9EF0 /* ARLoginRegisterVC.m */; };
+		EFDB7F241FCB22F700BA9EF0 /* ARLoginRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7F221FCB22F700BA9EF0 /* ARLoginRegisterVC.xib */; };
+		EFDB7F281FCB24C800BA9EF0 /* ARRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F261FCB24C800BA9EF0 /* ARRecommendVC.m */; };
+		EFDB7F291FCB24C800BA9EF0 /* ARRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7F271FCB24C800BA9EF0 /* ARRecommendVC.xib */; };
+		EFDB7F2D1FCB25A200BA9EF0 /* ARFriendTrendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB7F2B1FCB25A200BA9EF0 /* ARFriendTrendVC.m */; };
+		EFDB7F2E1FCB25A200BA9EF0 /* ARFriendTrendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDB7F2C1FCB25A200BA9EF0 /* ARFriendTrendVC.xib */; };
 		EFDD19DE1FAB887B00C9F54A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDD19DD1FAB887B00C9F54A /* AppDelegate.m */; };
 		EFDD19E41FAB887B00C9F54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD19E21FAB887B00C9F54A /* Main.storyboard */; };
 		EFDD19E91FAB887B00C9F54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDD19E71FAB887B00C9F54A /* LaunchScreen.storyboard */; };
@@ -288,6 +338,98 @@
 		EFDB7E911FCA931500BA9EF0 /* ARVoiceNewV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARVoiceNewV.h; sourceTree = "<group>"; };
 		EFDB7E921FCA931500BA9EF0 /* ARVoiceNewV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARVoiceNewV.m; sourceTree = "<group>"; };
 		EFDB7E941FCA936200BA9EF0 /* ARVoiceNewV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARVoiceNewV.xib; sourceTree = "<group>"; };
+		EFDB7E961FCAF18B00BA9EF0 /* ARLookingAroundVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARLookingAroundVC.h; sourceTree = "<group>"; };
+		EFDB7E971FCAF18B00BA9EF0 /* ARLookingAroundVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARLookingAroundVC.m; sourceTree = "<group>"; };
+		EFDB7E9A1FCAF22E00BA9EF0 /* ARLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARLayout.h; sourceTree = "<group>"; };
+		EFDB7E9B1FCAF22E00BA9EF0 /* ARLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARLayout.m; sourceTree = "<group>"; };
+		EFDB7E9D1FCAF2FA00BA9EF0 /* ARNewestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestVC.h; sourceTree = "<group>"; };
+		EFDB7E9E1FCAF2FA00BA9EF0 /* ARNewestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestVC.m; sourceTree = "<group>"; };
+		EFDB7EA11FCAF39500BA9EF0 /* ARTopicNewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTopicNewVC.h; sourceTree = "<group>"; };
+		EFDB7EA21FCAF39500BA9EF0 /* ARTopicNewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTopicNewVC.m; sourceTree = "<group>"; };
+		EFDB7EA41FCAF42100BA9EF0 /* ARCommentNewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCommentNewVC.h; sourceTree = "<group>"; };
+		EFDB7EA51FCAF42100BA9EF0 /* ARCommentNewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARCommentNewVC.m; sourceTree = "<group>"; };
+		EFDB7EA61FCAF42100BA9EF0 /* ARCommentNewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARCommentNewVC.xib; sourceTree = "<group>"; };
+		EFDB7EAA1FCAF91E00BA9EF0 /* ARRefreshOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRefreshOC.h; sourceTree = "<group>"; };
+		EFDB7EAB1FCAF91E00BA9EF0 /* ARRefreshOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRefreshOC.m; sourceTree = "<group>"; };
+		EFDB7EB01FCAF9D500BA9EF0 /* UIScrollView+ARRefreshOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ARRefreshOC.h"; sourceTree = "<group>"; };
+		EFDB7EB11FCAF9D500BA9EF0 /* UIScrollView+ARRefreshOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ARRefreshOC.m"; sourceTree = "<group>"; };
+		EFDB7EB31FCAFCA100BA9EF0 /* ARNewestTotalVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestTotalVC.h; sourceTree = "<group>"; };
+		EFDB7EB41FCAFCA100BA9EF0 /* ARNewestTotalVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestTotalVC.m; sourceTree = "<group>"; };
+		EFDB7EB61FCAFCBC00BA9EF0 /* ARNewestVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestVideoVC.h; sourceTree = "<group>"; };
+		EFDB7EB71FCAFCBC00BA9EF0 /* ARNewestVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestVideoVC.m; sourceTree = "<group>"; };
+		EFDB7EB91FCAFCCE00BA9EF0 /* ARNewestPictureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestPictureVC.h; sourceTree = "<group>"; };
+		EFDB7EBA1FCAFCCE00BA9EF0 /* ARNewestPictureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestPictureVC.m; sourceTree = "<group>"; };
+		EFDB7EBC1FCAFCE100BA9EF0 /* ARNewestJokesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestJokesVC.h; sourceTree = "<group>"; };
+		EFDB7EBD1FCAFCE100BA9EF0 /* ARNewestJokesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestJokesVC.m; sourceTree = "<group>"; };
+		EFDB7EBF1FCAFCF700BA9EF0 /* ARNewestInteractVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestInteractVC.h; sourceTree = "<group>"; };
+		EFDB7EC01FCAFCF700BA9EF0 /* ARNewestInteractVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestInteractVC.m; sourceTree = "<group>"; };
+		EFDB7EC21FCAFD0C00BA9EF0 /* ARNewestAlbumVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestAlbumVC.h; sourceTree = "<group>"; };
+		EFDB7EC31FCAFD0C00BA9EF0 /* ARNewestAlbumVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestAlbumVC.m; sourceTree = "<group>"; };
+		EFDB7EC51FCAFD2500BA9EF0 /* ARNewestRedNetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestRedNetVC.h; sourceTree = "<group>"; };
+		EFDB7EC61FCAFD2500BA9EF0 /* ARNewestRedNetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestRedNetVC.m; sourceTree = "<group>"; };
+		EFDB7EC81FCAFD3100BA9EF0 /* ARNewestVoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestVoteVC.h; sourceTree = "<group>"; };
+		EFDB7EC91FCAFD3100BA9EF0 /* ARNewestVoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestVoteVC.m; sourceTree = "<group>"; };
+		EFDB7ECB1FCAFD4100BA9EF0 /* ARNewestBeautyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestBeautyVC.h; sourceTree = "<group>"; };
+		EFDB7ECC1FCAFD4100BA9EF0 /* ARNewestBeautyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestBeautyVC.m; sourceTree = "<group>"; };
+		EFDB7ECE1FCAFD5F00BA9EF0 /* ARNewestColdKnowledgeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestColdKnowledgeVC.h; sourceTree = "<group>"; };
+		EFDB7ECF1FCAFD5F00BA9EF0 /* ARNewestColdKnowledgeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestColdKnowledgeVC.m; sourceTree = "<group>"; };
+		EFDB7ED11FCAFD6C00BA9EF0 /* ARNewestGameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestGameVC.h; sourceTree = "<group>"; };
+		EFDB7ED21FCAFD6C00BA9EF0 /* ARNewestGameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestGameVC.m; sourceTree = "<group>"; };
+		EFDB7ED41FCAFD7A00BA9EF0 /* ARNewestSoundsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNewestSoundsVC.h; sourceTree = "<group>"; };
+		EFDB7ED51FCAFD7A00BA9EF0 /* ARNewestSoundsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNewestSoundsVC.m; sourceTree = "<group>"; };
+		EFDB7ED81FCB00AD00BA9EF0 /* ARRecommendedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRecommendedVC.h; sourceTree = "<group>"; };
+		EFDB7ED91FCB00AD00BA9EF0 /* ARRecommendedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRecommendedVC.m; sourceTree = "<group>"; };
+		EFDB7EDB1FCB00C400BA9EF0 /* ARVideoPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARVideoPlayVC.h; sourceTree = "<group>"; };
+		EFDB7EDC1FCB00C400BA9EF0 /* ARVideoPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARVideoPlayVC.m; sourceTree = "<group>"; };
+		EFDB7EDE1FCB011800BA9EF0 /* ARPictureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPictureVC.h; sourceTree = "<group>"; };
+		EFDB7EDF1FCB011800BA9EF0 /* ARPictureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPictureVC.m; sourceTree = "<group>"; };
+		EFDB7EE11FCB012B00BA9EF0 /* ARJokesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARJokesVC.h; sourceTree = "<group>"; };
+		EFDB7EE21FCB012B00BA9EF0 /* ARJokesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARJokesVC.m; sourceTree = "<group>"; };
+		EFDB7EE41FCB013E00BA9EF0 /* ARRankingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRankingVC.h; sourceTree = "<group>"; };
+		EFDB7EE51FCB013E00BA9EF0 /* ARRankingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRankingVC.m; sourceTree = "<group>"; };
+		EFDB7EE71FCB014C00BA9EF0 /* ARInteractVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARInteractVC.h; sourceTree = "<group>"; };
+		EFDB7EE81FCB014C00BA9EF0 /* ARInteractVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARInteractVC.m; sourceTree = "<group>"; };
+		EFDB7EEA1FCB015A00BA9EF0 /* ARRedNetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRedNetVC.h; sourceTree = "<group>"; };
+		EFDB7EEB1FCB015A00BA9EF0 /* ARRedNetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRedNetVC.m; sourceTree = "<group>"; };
+		EFDB7EED1FCB016C00BA9EF0 /* ARSocietyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSocietyVC.h; sourceTree = "<group>"; };
+		EFDB7EEE1FCB016C00BA9EF0 /* ARSocietyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARSocietyVC.m; sourceTree = "<group>"; };
+		EFDB7EF01FCB018400BA9EF0 /* ARVoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARVoteVC.h; sourceTree = "<group>"; };
+		EFDB7EF11FCB018400BA9EF0 /* ARVoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARVoteVC.m; sourceTree = "<group>"; };
+		EFDB7EF31FCB019200BA9EF0 /* ARBeautyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARBeautyVC.h; sourceTree = "<group>"; };
+		EFDB7EF41FCB019200BA9EF0 /* ARBeautyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARBeautyVC.m; sourceTree = "<group>"; };
+		EFDB7EF61FCB01A500BA9EF0 /* ARColdKnowledgeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARColdKnowledgeVC.h; sourceTree = "<group>"; };
+		EFDB7EF71FCB01A500BA9EF0 /* ARColdKnowledgeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARColdKnowledgeVC.m; sourceTree = "<group>"; };
+		EFDB7EF91FCB01B000BA9EF0 /* ARGameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARGameVC.h; sourceTree = "<group>"; };
+		EFDB7EFA1FCB01B000BA9EF0 /* ARGameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARGameVC.m; sourceTree = "<group>"; };
+		EFDB7F001FCB1C0800BA9EF0 /* ARRecommendCategoryM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRecommendCategoryM.h; sourceTree = "<group>"; };
+		EFDB7F011FCB1C0800BA9EF0 /* ARRecommendCategoryM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRecommendCategoryM.m; sourceTree = "<group>"; };
+		EFDB7F031FCB1C3200BA9EF0 /* ARRecommendUserM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRecommendUserM.h; sourceTree = "<group>"; };
+		EFDB7F041FCB1C3200BA9EF0 /* ARRecommendUserM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRecommendUserM.m; sourceTree = "<group>"; };
+		EFDB7F061FCB1C6800BA9EF0 /* ARLoginRegisterV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARLoginRegisterV.h; sourceTree = "<group>"; };
+		EFDB7F071FCB1C6800BA9EF0 /* ARLoginRegisterV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARLoginRegisterV.m; sourceTree = "<group>"; };
+		EFDB7F091FCB1C7B00BA9EF0 /* ARLoginRegister.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARLoginRegister.xib; sourceTree = "<group>"; };
+		EFDB7F0B1FCB1E2000BA9EF0 /* ARThirdLoginV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARThirdLoginV.h; sourceTree = "<group>"; };
+		EFDB7F0C1FCB1E2000BA9EF0 /* ARThirdLoginV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARThirdLoginV.m; sourceTree = "<group>"; };
+		EFDB7F0E1FCB1E4200BA9EF0 /* ARThirdLogin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARThirdLogin.xib; sourceTree = "<group>"; };
+		EFDB7F101FCB1E8200BA9EF0 /* ARFastBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARFastBtn.h; sourceTree = "<group>"; };
+		EFDB7F111FCB1E8200BA9EF0 /* ARFastBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFastBtn.m; sourceTree = "<group>"; };
+		EFDB7F131FCB1EB000BA9EF0 /* ARTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTextField.h; sourceTree = "<group>"; };
+		EFDB7F141FCB1EB000BA9EF0 /* ARTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTextField.m; sourceTree = "<group>"; };
+		EFDB7F161FCB1EFD00BA9EF0 /* ARRecommendCategoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRecommendCategoryCell.h; sourceTree = "<group>"; };
+		EFDB7F171FCB1EFD00BA9EF0 /* ARRecommendCategoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRecommendCategoryCell.m; sourceTree = "<group>"; };
+		EFDB7F191FCB1F6400BA9EF0 /* ARRecommendCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		EFDB7F1B1FCB20A100BA9EF0 /* ARRecommendUserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRecommendUserCell.h; sourceTree = "<group>"; };
+		EFDB7F1C1FCB20A100BA9EF0 /* ARRecommendUserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRecommendUserCell.m; sourceTree = "<group>"; };
+		EFDB7F1D1FCB20A100BA9EF0 /* ARRecommendUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARRecommendUserCell.xib; sourceTree = "<group>"; };
+		EFDB7F201FCB22F700BA9EF0 /* ARLoginRegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARLoginRegisterVC.h; sourceTree = "<group>"; };
+		EFDB7F211FCB22F700BA9EF0 /* ARLoginRegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARLoginRegisterVC.m; sourceTree = "<group>"; };
+		EFDB7F221FCB22F700BA9EF0 /* ARLoginRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARLoginRegisterVC.xib; sourceTree = "<group>"; };
+		EFDB7F251FCB24C800BA9EF0 /* ARRecommendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRecommendVC.h; sourceTree = "<group>"; };
+		EFDB7F261FCB24C800BA9EF0 /* ARRecommendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRecommendVC.m; sourceTree = "<group>"; };
+		EFDB7F271FCB24C800BA9EF0 /* ARRecommendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARRecommendVC.xib; sourceTree = "<group>"; };
+		EFDB7F2A1FCB25A200BA9EF0 /* ARFriendTrendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARFriendTrendVC.h; sourceTree = "<group>"; };
+		EFDB7F2B1FCB25A200BA9EF0 /* ARFriendTrendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFriendTrendVC.m; sourceTree = "<group>"; };
+		EFDB7F2C1FCB25A200BA9EF0 /* ARFriendTrendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARFriendTrendVC.xib; sourceTree = "<group>"; };
 		EFDD19D91FAB887B00C9F54A /* ARBaisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBaisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDD19DC1FAB887B00C9F54A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFDD19DD1FAB887B00C9F54A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -414,11 +556,11 @@
 		EF1B2C0C1FADB6860009559B /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				EFDB7EA91FCAF8DE00BA9EF0 /* ARRefreshOC */,
 				EFDB7E4B1FC95A7E00BA9EF0 /* ARSegment */,
-				EFD3DC741FB1FA8A00DB2FE6 /* ARCarouselImageManager.h */,
-				EFD3DC751FB1FA8A00DB2FE6 /* ARCarouselImageManager.m */,
-				EFD3DC771FB1FB6500DB2FE6 /* ARCarouselImageView.h */,
-				EFD3DC781FB1FB6500DB2FE6 /* ARCarouselImageView.m */,
+				EFDB7E991FCAF20A00BA9EF0 /* ARCarouselImageView */,
+				EFDB7E9A1FCAF22E00BA9EF0 /* ARLayout.h */,
+				EFDB7E9B1FCAF22E00BA9EF0 /* ARLayout.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -695,11 +837,22 @@
 		EFDB7E471FC959B800BA9EF0 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				EFDB7ED71FCB008200BA9EF0 /* Recommended */,
+				EFDB7EA01FCAF30600BA9EF0 /* Newest */,
 				EFDB7E481FC959E500BA9EF0 /* AREssenceNewVC.h */,
 				EFDB7E491FC959E500BA9EF0 /* AREssenceNewVC.m */,
 				EFDB7E871FCA8C6D00BA9EF0 /* ARSeeBigPicNewVC.h */,
 				EFDB7E881FCA8C6D00BA9EF0 /* ARSeeBigPicNewVC.m */,
 				EFDB7E891FCA8C6D00BA9EF0 /* ARSeeBigPicNewVC.xib */,
+				EFDB7E961FCAF18B00BA9EF0 /* ARLookingAroundVC.h */,
+				EFDB7E971FCAF18B00BA9EF0 /* ARLookingAroundVC.m */,
+				EFDB7E9D1FCAF2FA00BA9EF0 /* ARNewestVC.h */,
+				EFDB7E9E1FCAF2FA00BA9EF0 /* ARNewestVC.m */,
+				EFDB7EA11FCAF39500BA9EF0 /* ARTopicNewVC.h */,
+				EFDB7EA21FCAF39500BA9EF0 /* ARTopicNewVC.m */,
+				EFDB7EA41FCAF42100BA9EF0 /* ARCommentNewVC.h */,
+				EFDB7EA51FCAF42100BA9EF0 /* ARCommentNewVC.m */,
+				EFDB7EA61FCAF42100BA9EF0 /* ARCommentNewVC.xib */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -769,6 +922,150 @@
 			path = V;
 			sourceTree = "<group>";
 		};
+		EFDB7E991FCAF20A00BA9EF0 /* ARCarouselImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EFD3DC741FB1FA8A00DB2FE6 /* ARCarouselImageManager.h */,
+				EFD3DC751FB1FA8A00DB2FE6 /* ARCarouselImageManager.m */,
+				EFD3DC771FB1FB6500DB2FE6 /* ARCarouselImageView.h */,
+				EFD3DC781FB1FB6500DB2FE6 /* ARCarouselImageView.m */,
+			);
+			path = ARCarouselImageView;
+			sourceTree = "<group>";
+		};
+		EFDB7EA01FCAF30600BA9EF0 /* Newest */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB7EB31FCAFCA100BA9EF0 /* ARNewestTotalVC.h */,
+				EFDB7EB41FCAFCA100BA9EF0 /* ARNewestTotalVC.m */,
+				EFDB7EB61FCAFCBC00BA9EF0 /* ARNewestVideoVC.h */,
+				EFDB7EB71FCAFCBC00BA9EF0 /* ARNewestVideoVC.m */,
+				EFDB7EB91FCAFCCE00BA9EF0 /* ARNewestPictureVC.h */,
+				EFDB7EBA1FCAFCCE00BA9EF0 /* ARNewestPictureVC.m */,
+				EFDB7EBC1FCAFCE100BA9EF0 /* ARNewestJokesVC.h */,
+				EFDB7EBD1FCAFCE100BA9EF0 /* ARNewestJokesVC.m */,
+				EFDB7EBF1FCAFCF700BA9EF0 /* ARNewestInteractVC.h */,
+				EFDB7EC01FCAFCF700BA9EF0 /* ARNewestInteractVC.m */,
+				EFDB7EC21FCAFD0C00BA9EF0 /* ARNewestAlbumVC.h */,
+				EFDB7EC31FCAFD0C00BA9EF0 /* ARNewestAlbumVC.m */,
+				EFDB7EC51FCAFD2500BA9EF0 /* ARNewestRedNetVC.h */,
+				EFDB7EC61FCAFD2500BA9EF0 /* ARNewestRedNetVC.m */,
+				EFDB7EC81FCAFD3100BA9EF0 /* ARNewestVoteVC.h */,
+				EFDB7EC91FCAFD3100BA9EF0 /* ARNewestVoteVC.m */,
+				EFDB7ECB1FCAFD4100BA9EF0 /* ARNewestBeautyVC.h */,
+				EFDB7ECC1FCAFD4100BA9EF0 /* ARNewestBeautyVC.m */,
+				EFDB7ECE1FCAFD5F00BA9EF0 /* ARNewestColdKnowledgeVC.h */,
+				EFDB7ECF1FCAFD5F00BA9EF0 /* ARNewestColdKnowledgeVC.m */,
+				EFDB7ED11FCAFD6C00BA9EF0 /* ARNewestGameVC.h */,
+				EFDB7ED21FCAFD6C00BA9EF0 /* ARNewestGameVC.m */,
+				EFDB7ED41FCAFD7A00BA9EF0 /* ARNewestSoundsVC.h */,
+				EFDB7ED51FCAFD7A00BA9EF0 /* ARNewestSoundsVC.m */,
+			);
+			path = Newest;
+			sourceTree = "<group>";
+		};
+		EFDB7EA91FCAF8DE00BA9EF0 /* ARRefreshOC */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB7EAA1FCAF91E00BA9EF0 /* ARRefreshOC.h */,
+				EFDB7EAB1FCAF91E00BA9EF0 /* ARRefreshOC.m */,
+				EFDB7EB01FCAF9D500BA9EF0 /* UIScrollView+ARRefreshOC.h */,
+				EFDB7EB11FCAF9D500BA9EF0 /* UIScrollView+ARRefreshOC.m */,
+			);
+			path = ARRefreshOC;
+			sourceTree = "<group>";
+		};
+		EFDB7ED71FCB008200BA9EF0 /* Recommended */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB7ED81FCB00AD00BA9EF0 /* ARRecommendedVC.h */,
+				EFDB7ED91FCB00AD00BA9EF0 /* ARRecommendedVC.m */,
+				EFDB7EDB1FCB00C400BA9EF0 /* ARVideoPlayVC.h */,
+				EFDB7EDC1FCB00C400BA9EF0 /* ARVideoPlayVC.m */,
+				EFDB7EDE1FCB011800BA9EF0 /* ARPictureVC.h */,
+				EFDB7EDF1FCB011800BA9EF0 /* ARPictureVC.m */,
+				EFDB7EE11FCB012B00BA9EF0 /* ARJokesVC.h */,
+				EFDB7EE21FCB012B00BA9EF0 /* ARJokesVC.m */,
+				EFDB7EE41FCB013E00BA9EF0 /* ARRankingVC.h */,
+				EFDB7EE51FCB013E00BA9EF0 /* ARRankingVC.m */,
+				EFDB7EE71FCB014C00BA9EF0 /* ARInteractVC.h */,
+				EFDB7EE81FCB014C00BA9EF0 /* ARInteractVC.m */,
+				EFDB7EEA1FCB015A00BA9EF0 /* ARRedNetVC.h */,
+				EFDB7EEB1FCB015A00BA9EF0 /* ARRedNetVC.m */,
+				EFDB7EED1FCB016C00BA9EF0 /* ARSocietyVC.h */,
+				EFDB7EEE1FCB016C00BA9EF0 /* ARSocietyVC.m */,
+				EFDB7EF01FCB018400BA9EF0 /* ARVoteVC.h */,
+				EFDB7EF11FCB018400BA9EF0 /* ARVoteVC.m */,
+				EFDB7EF31FCB019200BA9EF0 /* ARBeautyVC.h */,
+				EFDB7EF41FCB019200BA9EF0 /* ARBeautyVC.m */,
+				EFDB7EF61FCB01A500BA9EF0 /* ARColdKnowledgeVC.h */,
+				EFDB7EF71FCB01A500BA9EF0 /* ARColdKnowledgeVC.m */,
+				EFDB7EF91FCB01B000BA9EF0 /* ARGameVC.h */,
+				EFDB7EFA1FCB01B000BA9EF0 /* ARGameVC.m */,
+			);
+			path = Recommended;
+			sourceTree = "<group>";
+		};
+		EFDB7EFC1FCB03DA00BA9EF0 /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB7EFF1FCB1BE500BA9EF0 /* C */,
+				EFDB7EFE1FCB1BDF00BA9EF0 /* M */,
+				EFDB7EFD1FCB1BD700BA9EF0 /* V */,
+			);
+			path = FriendTrend;
+			sourceTree = "<group>";
+		};
+		EFDB7EFD1FCB1BD700BA9EF0 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB7F061FCB1C6800BA9EF0 /* ARLoginRegisterV.h */,
+				EFDB7F071FCB1C6800BA9EF0 /* ARLoginRegisterV.m */,
+				EFDB7F091FCB1C7B00BA9EF0 /* ARLoginRegister.xib */,
+				EFDB7F0B1FCB1E2000BA9EF0 /* ARThirdLoginV.h */,
+				EFDB7F0C1FCB1E2000BA9EF0 /* ARThirdLoginV.m */,
+				EFDB7F0E1FCB1E4200BA9EF0 /* ARThirdLogin.xib */,
+				EFDB7F101FCB1E8200BA9EF0 /* ARFastBtn.h */,
+				EFDB7F111FCB1E8200BA9EF0 /* ARFastBtn.m */,
+				EFDB7F131FCB1EB000BA9EF0 /* ARTextField.h */,
+				EFDB7F141FCB1EB000BA9EF0 /* ARTextField.m */,
+				EFDB7F161FCB1EFD00BA9EF0 /* ARRecommendCategoryCell.h */,
+				EFDB7F171FCB1EFD00BA9EF0 /* ARRecommendCategoryCell.m */,
+				EFDB7F191FCB1F6400BA9EF0 /* ARRecommendCategoryCell.xib */,
+				EFDB7F1B1FCB20A100BA9EF0 /* ARRecommendUserCell.h */,
+				EFDB7F1C1FCB20A100BA9EF0 /* ARRecommendUserCell.m */,
+				EFDB7F1D1FCB20A100BA9EF0 /* ARRecommendUserCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		EFDB7EFE1FCB1BDF00BA9EF0 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB7F001FCB1C0800BA9EF0 /* ARRecommendCategoryM.h */,
+				EFDB7F011FCB1C0800BA9EF0 /* ARRecommendCategoryM.m */,
+				EFDB7F031FCB1C3200BA9EF0 /* ARRecommendUserM.h */,
+				EFDB7F041FCB1C3200BA9EF0 /* ARRecommendUserM.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		EFDB7EFF1FCB1BE500BA9EF0 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB7F201FCB22F700BA9EF0 /* ARLoginRegisterVC.h */,
+				EFDB7F211FCB22F700BA9EF0 /* ARLoginRegisterVC.m */,
+				EFDB7F221FCB22F700BA9EF0 /* ARLoginRegisterVC.xib */,
+				EFDB7F251FCB24C800BA9EF0 /* ARRecommendVC.h */,
+				EFDB7F261FCB24C800BA9EF0 /* ARRecommendVC.m */,
+				EFDB7F271FCB24C800BA9EF0 /* ARRecommendVC.xib */,
+				EFDB7F2A1FCB25A200BA9EF0 /* ARFriendTrendVC.h */,
+				EFDB7F2B1FCB25A200BA9EF0 /* ARFriendTrendVC.m */,
+				EFDB7F2C1FCB25A200BA9EF0 /* ARFriendTrendVC.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		EFDD19D01FAB887B00C9F54A = {
 			isa = PBXGroup;
 			children = (
@@ -802,6 +1099,7 @@
 		EFDD19F21FAC2DC200C9F54A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EFDB7EFC1FCB03DA00BA9EF0 /* FriendTrend */,
 				EFD3DC3D1FB1AD0300DB2FE6 /* New */,
 				EFD3DC2A1FB0C76D00DB2FE6 /* Comment */,
 				EFD3DC221FB0BB4100DB2FE6 /* Essence */,
@@ -882,6 +1180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDB7F1F1FCB20A100BA9EF0 /* ARRecommendUserCell.xib in Resources */,
 				EF1B2C161FADB91B0009559B /* ARPublishV.xib in Resources */,
 				EFD3DC571FB1B6F300DB2FE6 /* ARPic.xib in Resources */,
 				EF1B2C061FADAFB20009559B /* ARPushGuideV.xib in Resources */,
@@ -891,17 +1190,24 @@
 				EF1B2C221FAFF23A0009559B /* ARAddToolBar.xib in Resources */,
 				EFDB7E8B1FCA8C6D00BA9EF0 /* ARSeeBigPicNewVC.xib in Resources */,
 				EFDB7E771FCA64B400BA9EF0 /* ARCommentNewCell.xib in Resources */,
+				EFDB7F291FCB24C800BA9EF0 /* ARRecommendVC.xib in Resources */,
+				EFDB7F0A1FCB1C7B00BA9EF0 /* ARLoginRegister.xib in Resources */,
 				EFD3DC521FB1B47000DB2FE6 /* ARSeeBigPicVC.xib in Resources */,
 				EFCF86881FAC4DAC000D9120 /* ARADVC.xib in Resources */,
 				EFDD19E91FAB887B00C9F54A /* LaunchScreen.storyboard in Resources */,
 				EFDD19E41FAB887B00C9F54A /* Main.storyboard in Resources */,
 				EFDB7E951FCA936200BA9EF0 /* ARVoiceNewV.xib in Resources */,
+				EFDB7F241FCB22F700BA9EF0 /* ARLoginRegisterVC.xib in Resources */,
 				EFDB7E561FC95D7D00BA9EF0 /* ARMoreCell.xib in Resources */,
+				EFDB7F2E1FCB25A200BA9EF0 /* ARFriendTrendVC.xib in Resources */,
 				EF8F7E991FB04BE600084242 /* ARWebVC.xib in Resources */,
+				EFDB7F1A1FCB1F6400BA9EF0 /* ARRecommendCategoryCell.xib in Resources */,
 				EF8F7E911FB0493D00084242 /* ARSquareCell.xib in Resources */,
+				EFDB7EA81FCAF42100BA9EF0 /* ARCommentNewVC.xib in Resources */,
 				EFD3DC391FB1865800DB2FE6 /* ARCommentVC.xib in Resources */,
 				EFD3DC611FB1B74A00DB2FE6 /* ARVoiceV.xib in Resources */,
 				EFDB7E721FCA602A00BA9EF0 /* ARLookingAroundV.xib in Resources */,
+				EFDB7F0F1FCB1E4200BA9EF0 /* ARThirdLogin.xib in Resources */,
 				EFDB7E7C1FCA6D5300BA9EF0 /* ARTopCommentCell.xib in Resources */,
 				EFD3DC481FB1AE1400DB2FE6 /* ARSubTagCell.xib in Resources */,
 				EFD3DC5C1FB1B72800DB2FE6 /* ARVideoV.xib in Resources */,
@@ -974,41 +1280,65 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF8F7E981FB04BE600084242 /* ARWebVC.m in Sources */,
+				EFDB7ECA1FCAFD3100BA9EF0 /* ARNewestVoteVC.m in Sources */,
 				EFD3DC701FB1F71600DB2FE6 /* ARTopicVC.m in Sources */,
 				EFD3DC1F1FB0B69000DB2FE6 /* ARMeVC.m in Sources */,
 				EFDB7E761FCA64B400BA9EF0 /* ARCommentNewCell.m in Sources */,
+				EFDB7ECD1FCAFD4100BA9EF0 /* ARNewestBeautyVC.m in Sources */,
 				EF8F7E7E1FB042A200084242 /* ARFileTool.m in Sources */,
+				EFDB7EF21FCB018400BA9EF0 /* ARVoteVC.m in Sources */,
 				EFDB7E6A1FC9643C00BA9EF0 /* ARCommentNewM.m in Sources */,
+				EFDB7ED01FCAFD5F00BA9EF0 /* ARNewestColdKnowledgeVC.m in Sources */,
 				EF1B2BF91FADAB5C0009559B /* ARMainVC.m in Sources */,
+				EFDB7F121FCB1E8200BA9EF0 /* ARFastBtn.m in Sources */,
+				EFDB7EB21FCAF9D500BA9EF0 /* UIScrollView+ARRefreshOC.m in Sources */,
+				EFDB7EFB1FCB01B000BA9EF0 /* ARGameVC.m in Sources */,
+				EFDB7EF81FCB01A500BA9EF0 /* ARColdKnowledgeVC.m in Sources */,
+				EFDB7ED31FCAFD6C00BA9EF0 /* ARNewestGameVC.m in Sources */,
+				EFDB7EBB1FCAFCCE00BA9EF0 /* ARNewestPictureVC.m in Sources */,
+				EFDB7EEC1FCB015A00BA9EF0 /* ARRedNetVC.m in Sources */,
 				EFDB7E801FCA8AFB00BA9EF0 /* ARTopicNewCell.m in Sources */,
 				EFD3DC7C1FB1FDCA00DB2FE6 /* ARAllVC.m in Sources */,
+				EFDB7EB51FCAFCA100BA9EF0 /* ARNewestTotalVC.m in Sources */,
 				EFDB7E4E1FC95AE800BA9EF0 /* ARSegmentBar.m in Sources */,
+				EFDB7F281FCB24C800BA9EF0 /* ARRecommendVC.m in Sources */,
 				EF8F7E851FB0460C00084242 /* ARSettingVC.m in Sources */,
 				EF1B2C201FAFF20D0009559B /* ARAddToolBar.m in Sources */,
+				EFDB7E9C1FCAF22E00BA9EF0 /* ARLayout.m in Sources */,
 				EFDB7E5F1FC95FED00BA9EF0 /* ARShowMoreVC.m in Sources */,
 				EFD3DC3C1FB186CB00DB2FE6 /* ARTopicM.m in Sources */,
 				EFDB7E8A1FCA8C6D00BA9EF0 /* ARSeeBigPicNewVC.m in Sources */,
+				EFDB7EEF1FCB016C00BA9EF0 /* ARSocietyVC.m in Sources */,
 				EFDB7E4A1FC959E500BA9EF0 /* AREssenceNewVC.m in Sources */,
 				EF1B2C0F1FADB6A80009559B /* UIView+ARSegment.m in Sources */,
 				EF1B2C351FB007E20009559B /* NSDate+calendar.m in Sources */,
 				EFD3DC6C1FB1F6A200DB2FE6 /* AREssenceVC.m in Sources */,
+				EFDB7F181FCB1EFD00BA9EF0 /* ARRecommendCategoryCell.m in Sources */,
 				EFDB7E5C1FC95F3100BA9EF0 /* ARSegmentMoreBtn.m in Sources */,
 				EFD3DC7F1FB1FE3F00DB2FE6 /* ARWordVC.m in Sources */,
+				EFDB7F231FCB22F700BA9EF0 /* ARLoginRegisterVC.m in Sources */,
 				EFDB7E591FC95EA700BA9EF0 /* ARMoreLayout.m in Sources */,
 				EFD3DC4B1FB1B23D00DB2FE6 /* ARSubTagVC.m in Sources */,
 				EF1B2C291FB006990009559B /* UIImage+image.m in Sources */,
+				EFDB7EBE1FCAFCE100BA9EF0 /* ARNewestJokesVC.m in Sources */,
 				EFDB7E6D1FC964C400BA9EF0 /* ARTopicNewM.m in Sources */,
+				EFDB7EE31FCB012B00BA9EF0 /* ARJokesVC.m in Sources */,
 				EFD3DC261FB0BB9600DB2FE6 /* ARUserM.m in Sources */,
 				EF1B2C141FADB9060009559B /* ARPublishV.m in Sources */,
 				EFDD19EC1FAB887B00C9F54A /* main.m in Sources */,
 				EF1B2C3E1FB00B9D0009559B /* ARTagBtn.m in Sources */,
+				EFDB7EA31FCAF39500BA9EF0 /* ARTopicNewVC.m in Sources */,
+				EFDB7F151FCB1EB000BA9EF0 /* ARTextField.m in Sources */,
 				EF1B2C2C1FB006D50009559B /* UIBarButtonItem+item.m in Sources */,
+				EFDB7EAC1FCAF91E00BA9EF0 /* ARRefreshOC.m in Sources */,
 				EFDD19F51FAC2ED000C9F54A /* ARConst.m in Sources */,
 				EF1B2C321FB007990009559B /* UITextField+placeholder.m in Sources */,
 				EFD3DC551FB1B6E200DB2FE6 /* ARPicV.m in Sources */,
 				EF1B2C001FADAEF30009559B /* ARTabBar.m in Sources */,
 				EFD3DC301FB0C7AA00DB2FE6 /* ARCommentCell.m in Sources */,
+				EFDB7EC41FCAFD0C00BA9EF0 /* ARNewestAlbumVC.m in Sources */,
 				EFDB7E8E1FCA90EA00BA9EF0 /* ARVideoNewV.m in Sources */,
+				EFDB7EE01FCB011800BA9EF0 /* ARPictureVC.m in Sources */,
 				EFDB7E7B1FCA6D5300BA9EF0 /* ARTopCommentCell.m in Sources */,
 				EF8F7E8C1FB048D200084242 /* ARSquareM.m in Sources */,
 				EFD3DC851FB1FEA000DB2FE6 /* ARVideoVC.m in Sources */,
@@ -1016,24 +1346,37 @@
 				EF1B2BF51FACA56C0009559B /* ARADM.m in Sources */,
 				EF1B2C1D1FAF4D1C0009559B /* ARPlaceholderTextV.m in Sources */,
 				EFDB7E511FC95BEA00BA9EF0 /* ARSegmentConfig.m in Sources */,
+				EFDB7F051FCB1C3200BA9EF0 /* ARRecommendUserM.m in Sources */,
 				EF1B2C041FADAF8A0009559B /* ARPushGuideV.m in Sources */,
 				EFD3DC511FB1B47000DB2FE6 /* ARSeeBigPicVC.m in Sources */,
 				EFCF86871FAC4DAC000D9120 /* ARADVC.m in Sources */,
 				EF8F7E901FB0493D00084242 /* ARSquareCell.m in Sources */,
 				EFD3DC5F1FB1B74000DB2FE6 /* ARVoiceV.m in Sources */,
 				EF1B2C3B1FB00A190009559B /* ARTagTextField.m in Sources */,
+				EFDB7F1E1FCB20A100BA9EF0 /* ARRecommendUserCell.m in Sources */,
 				EF1B2C4A1FB02DF40009559B /* ARTopWindow.m in Sources */,
 				EFD3DC821FB1FE7900DB2FE6 /* ARPicVC.m in Sources */,
 				EF1B2C1A1FAF4BE70009559B /* ARPostWordVC.m in Sources */,
+				EFDB7EA71FCAF42100BA9EF0 /* ARCommentNewVC.m in Sources */,
 				EFD3DC691FB1F61900DB2FE6 /* ARTitleBtn.m in Sources */,
+				EFDB7F021FCB1C0800BA9EF0 /* ARRecommendCategoryM.m in Sources */,
+				EFDB7EDD1FCB00C400BA9EF0 /* ARVideoPlayVC.m in Sources */,
+				EFDB7E981FCAF18B00BA9EF0 /* ARLookingAroundVC.m in Sources */,
+				EFDB7EC71FCAFD2500BA9EF0 /* ARNewestRedNetVC.m in Sources */,
 				EFD3DC431FB1AD3B00DB2FE6 /* ARSubTagM.m in Sources */,
+				EFDB7ED61FCAFD7A00BA9EF0 /* ARNewestSoundsVC.m in Sources */,
+				EFDB7E9F1FCAF2FA00BA9EF0 /* ARNewestVC.m in Sources */,
+				EFDB7EF51FCB019200BA9EF0 /* ARBeautyVC.m in Sources */,
 				EFD3DC791FB1FB6500DB2FE6 /* ARCarouselImageView.m in Sources */,
 				EFD3DC5A1FB1B71B00DB2FE6 /* ARVideoV.m in Sources */,
 				EFD3DC651FB1E8DF00DB2FE6 /* ARTopicCell.m in Sources */,
+				EFDB7EC11FCAFCF700BA9EF0 /* ARNewestInteractVC.m in Sources */,
+				EFDB7EB81FCAFCBC00BA9EF0 /* ARNewestVideoVC.m in Sources */,
 				EFD3DC291FB0BC2800DB2FE6 /* ARCommentM.m in Sources */,
 				EF1B2C2F1FB007220009559B /* UIImageView+download.m in Sources */,
 				EF1B2C0B1FADB3E90009559B /* UIView+frame.m in Sources */,
 				EF8F7E811FB044BF00084242 /* ARNetworkTools.m in Sources */,
+				EFDB7EE91FCB014C00BA9EF0 /* ARInteractVC.m in Sources */,
 				EFDB7E841FCA8BB800BA9EF0 /* ARPicNewV.m in Sources */,
 				EFD3DC881FB1FEAD00DB2FE6 /* ARVoiceVC.m in Sources */,
 				EFDB7E711FCA602A00BA9EF0 /* ARLookingAroundV.m in Sources */,
@@ -1042,10 +1385,15 @@
 				EFD3DC471FB1AE1400DB2FE6 /* ARSubTagCell.m in Sources */,
 				EFD3DC8B1FB1FFF300DB2FE6 /* ARPublishVC.m in Sources */,
 				EFD3DC761FB1FA8A00DB2FE6 /* ARCarouselImageManager.m in Sources */,
+				EFDB7F0D1FCB1E2000BA9EF0 /* ARThirdLoginV.m in Sources */,
+				EFDB7F2D1FCB25A200BA9EF0 /* ARFriendTrendVC.m in Sources */,
 				EFDB7E551FC95D7D00BA9EF0 /* ARMoreCell.m in Sources */,
 				EFDB7E671FC963FC00BA9EF0 /* ARUserNewM.m in Sources */,
 				EFDD19DE1FAB887B00C9F54A /* AppDelegate.m in Sources */,
+				EFDB7EE61FCB013E00BA9EF0 /* ARRankingVC.m in Sources */,
+				EFDB7EDA1FCB00AD00BA9EF0 /* ARRecommendedVC.m in Sources */,
 				EF1B2C381FB008E40009559B /* ARAddTagsVC.m in Sources */,
+				EFDB7F081FCB1C6800BA9EF0 /* ARLoginRegisterV.m in Sources */,
 				EFDB7E621FC9609400BA9EF0 /* ARSegmentBarVC.m in Sources */,
 				EF1B2C471FB013E90009559B /* ARNavigationVC.m in Sources */,
 				EFD3DC341FB1837D00DB2FE6 /* ARCommentHeaderFooterV.m in Sources */,

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="category" id="IQ6-va-5Hw" customClass="ARRecommendCategoryCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IQ6-va-5Hw" id="Mqg-BL-ELH">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLK-BE-SV3">
+                        <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrt-p2-MyG">
+                        <rect key="frame" x="0.0" y="0.0" width="5" height="44"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vrt-p2-MyG" firstAttribute="top" secondItem="Mqg-BL-ELH" secondAttribute="top" id="3s1-eu-1YQ"/>
+                    <constraint firstAttribute="trailing" secondItem="YLK-BE-SV3" secondAttribute="trailing" id="Dcn-Ao-HDZ"/>
+                    <constraint firstItem="vrt-p2-MyG" firstAttribute="centerY" secondItem="Mqg-BL-ELH" secondAttribute="centerY" id="Fue-93-fNq"/>
+                    <constraint firstItem="YLK-BE-SV3" firstAttribute="top" secondItem="Mqg-BL-ELH" secondAttribute="topMargin" constant="32" id="Kis-qs-bWk"/>
+                    <constraint firstAttribute="trailing" secondItem="vrt-p2-MyG" secondAttribute="trailing" constant="315" id="RAd-L8-HCX"/>
+                    <constraint firstItem="vrt-p2-MyG" firstAttribute="leading" secondItem="Mqg-BL-ELH" secondAttribute="leading" id="UAK-He-ldJ"/>
+                    <constraint firstItem="vrt-p2-MyG" firstAttribute="bottom" secondItem="YLK-BE-SV3" secondAttribute="bottom" id="hck-3f-0nd"/>
+                    <constraint firstItem="vrt-p2-MyG" firstAttribute="leading" secondItem="YLK-BE-SV3" secondAttribute="leading" id="wFA-g5-Sgh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="selectedIndicator" destination="vrt-p2-MyG" id="N2o-pt-nyW"/>
+            </connections>
+            <point key="canvasLocation" x="81" y="-54"/>
+        </tableViewCell>
+    </objects>
+</document>

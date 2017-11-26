@@ -1,33 +1,32 @@
 //
-//  AREssenceNewVC.m
+//  ARNewestVC.m
 //  ARBaisibudejie
 //
-//  Created by andyron<http://andyron.com> on 2017/11/25.
+//  Created by andyron<http://andyron.com> on 2017/11/26.
 //  Copyright © 2017年 andyron. All rights reserved.
 //
 
-#import "AREssenceNewVC.h"
+#import "ARNewestVC.h"
 #import "ARSegmentBarVC.h"
 #import "ARTopicNewVC.h"
-#import "ARRecommendedVC.h"
-#import "ARVideoPlayVC.h"
-#import "ARPictureVC.h"
-#import "ARJokesVC.h"
-#import "ARRankingVC.h"
-#import "ARInteractVC.h"
-#import "ARRedNetVC.h"
-#import "ARSocietyVC.h"
-#import "ARVoteVC.h"
-#import "ARBeautyVC.h"
-#import "ARColdKnowledgeVC.h"
-#import "ARGameVC.h"
-#import "ARLookingAroundVC.h"
+#import "ARNewestTotalVC.h"
+#import "ARNewestVideoVC.h"
+#import "ARNewestPictureVC.h"
+#import "ARNewestJokesVC.h"
+#import "ARNewestInteractVC.h"
+#import "ARNewestAlbumVC.h"
+#import "ARNewestRedNetVC.h"
+#import "ARNewestVoteVC.h"
+#import "ARNewestBeautyVC.h"
+#import "ARNewestColdKnowledgeVC.h"
+#import "ARNewestGameVC.h"
+#import "ARNewestSoundsVC.h"
 
-@interface AREssenceNewVC ()
+@interface ARNewestVC ()
 @property (nonatomic, weak) ARSegmentBarVC *segmentBarVC;
 @end
 
-@implementation AREssenceNewVC
+@implementation ARNewestVC
 
 -(UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleLightContent;//UIStatusBarStyleDefault;
@@ -50,21 +49,20 @@
     self.segmentBarVC.view.frame = self.view.bounds;
     //使用segmentBarVC
     [self.view addSubview:self.segmentBarVC.view];
-    NSArray *items = @[@"推荐",@"随听", @"视频", @"图片", @"段子",@"排行",@"互动区",@"网红",@"社会",@"投票",@"美女",@"冷知识",@"游戏"];
+    NSArray *items = @[@"全部", @"视频", @"图片", @"段子",@"互动区",@"相册",@"网红",@"投票",@"美女",@"冷知识",@"游戏",@"声音"];
     NSMutableArray* childVCs = [NSMutableArray array];
-    [childVCs addObject:[[ARRecommendedVC alloc] init]];
-    [childVCs addObject:[[ARLookingAroundVC alloc] init]];
-    [childVCs addObject:[[ARVideoPlayVC alloc] init]];
-    [childVCs addObject:[[ARPictureVC alloc] init]];
-    [childVCs addObject:[[ARJokesVC alloc] init]];
-    [childVCs addObject:[[ARRankingVC alloc] init]];
-    [childVCs addObject:[[ARInteractVC alloc] init]];
-    [childVCs addObject:[[ARRedNetVC alloc] init]];
-    [childVCs addObject:[[ARSocietyVC alloc] init]];
-    [childVCs addObject:[[ARVoteVC alloc] init]];
-    [childVCs addObject:[[ARBeautyVC alloc] init]];
-    [childVCs addObject:[[ARColdKnowledgeVC alloc] init]];
-    [childVCs addObject:[[ARGameVC alloc] init]];
+    [childVCs addObject:[[ARNewestTotalVC alloc] init]];
+    [childVCs addObject:[[ARNewestVideoVC alloc] init]];
+    [childVCs addObject:[[ARNewestPictureVC alloc] init]];
+    [childVCs addObject:[[ARNewestJokesVC alloc] init]];
+    [childVCs addObject:[[ARNewestInteractVC alloc] init]];
+    [childVCs addObject:[[ARNewestAlbumVC alloc] init]];
+    [childVCs addObject:[[ARNewestRedNetVC alloc] init]];
+    [childVCs addObject:[[ARNewestVoteVC alloc] init]];
+    [childVCs addObject:[[ARNewestBeautyVC alloc] init]];
+    [childVCs addObject:[[ARNewestColdKnowledgeVC alloc] init]];
+    [childVCs addObject:[[ARNewestGameVC alloc] init]];
+    [childVCs addObject:[[ARNewestSoundsVC alloc] init]];
     
     [self.segmentBarVC setupWithItems:items childVCs:childVCs];
     
@@ -76,8 +74,7 @@
         .indicateExtraW(8)
         .indicateH(2)
         .indicateColor([UIColor whiteColor])
-        .showMore(NO)//是否显示更多面板
-        .circleScroll(YES)//是否循环滚动，第0个再向前，那么到最后一个;最后一个向后，那么到第0个
+        .showMore(YES)
         .moreCellBGColor([[UIColor grayColor] colorWithAlphaComponent:0.3])
         .moreBGColor([UIColor clearColor])
         .moreCellFont([UIFont systemFontOfSize:13])
@@ -99,18 +96,17 @@
 }
 
 - (void)setupNavBar{
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"nav_item_game_icon-1" highImageName:@"nav_item_game_click_icon-1" target:self action:@selector(test)];
-    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImageName:@"RandomAcross" highImageName:@"RandomAcrossClick" target:self action:@selector(randomAcross)];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImageName:@"review_post_nav_icon" highImageName:@"review_post_nav_icon_click" target:self action:@selector(check)];
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImageName:@"nav_search_icon" highImageName:@"nav_search_icon_click" target:self action:@selector(search)];
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
 }
 
-- (void)test{
+- (void)check{
     ARFunc
 }
 
--(void)randomAcross{
+- (void)search{
     ARFunc
-    [[NSNotificationCenter defaultCenter] postNotificationName:AcrossEssenceNotification object:nil userInfo:nil];
 }
 
 -(void) hideNav{
@@ -136,4 +132,5 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self name:NavigationBarHiddenNotification object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:NavigationBarShowNotification object:nil];
 }
+
 @end

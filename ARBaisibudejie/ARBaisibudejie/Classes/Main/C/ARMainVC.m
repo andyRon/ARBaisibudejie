@@ -10,9 +10,9 @@
 #import "ARTabBar.h"
 #import "ARNavigationVC.h"
 #import "AREssenceVC.h"
-//#import "AREssenceNewVC.h"
-//#import "ARNewestVC.h"
-//#import "ARFriendTrendVC.h"
+#import "AREssenceNewVC.h"
+#import "ARNewestVC.h"
+#import "ARFriendTrendVC.h"
 #import "ARMeVC.h"
 #import "ARNewVC.h"
 #import "ARPublishVC.h"
@@ -61,12 +61,12 @@
 }
 
 - (void)setupAllChildVC {
-//    ARNavigationVC *essenceVc = [[ARNavigationVC alloc] initWithRootViewController:[[AREssenceNewVC alloc] init]];
-//    ARNavigationVC *newVc = [[ARNavigationVC alloc] initWithRootViewController:[[ARNewestVC alloc] init]];
-//    ARNavigationVC *ftVc = [[ARNavigationVC alloc] initWithRootViewController:[[ARFriendTrendVC alloc] init]];
-//    ARNavigationVC *meVc = [[ARNavigationVC alloc] initWithRootViewController:[[UIStoryboard storyboardWithName:NSStringFromClass([ARMeVC class]) bundle:nil] instantiateInitialViewController]];
-//
-//    self.viewControllers = @[essenceVc,newVc,ftVc,meVc];
+    ARNavigationVC *essenceVc = [[ARNavigationVC alloc] initWithRootViewController:[[AREssenceNewVC alloc] init]];
+    ARNavigationVC *newVc = [[ARNavigationVC alloc] initWithRootViewController:[[ARNewestVC alloc] init]];
+    ARNavigationVC *ftVc = [[ARNavigationVC alloc] initWithRootViewController:[[ARFriendTrendVC alloc] init]];
+    ARNavigationVC *meVc = [[ARNavigationVC alloc] initWithRootViewController:[[UIStoryboard storyboardWithName:NSStringFromClass([ARMeVC class]) bundle:nil] instantiateInitialViewController]];
+
+    self.viewControllers = @[essenceVc,newVc,ftVc,meVc];
 }
 
 - (void)setupAllTitleButton{

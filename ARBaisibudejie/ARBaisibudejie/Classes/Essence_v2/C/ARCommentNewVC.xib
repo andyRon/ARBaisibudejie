@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ARCommentNewVC">
+            <connections>
+                <outlet property="bottomMargin" destination="DrO-6Z-v9s" id="PiN-FL-U3c"/>
+                <outlet property="tableV" destination="vGz-xU-hsJ" id="ibz-ab-YBf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vGz-xU-hsJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="627" id="7du-lz-zKI"/>
+                    </constraints>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PtH-6O-P78">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="comment-bar-bg" translatesAutoresizingMaskIntoConstraints="NO" id="5LZ-4J-t8t">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvb-kc-n94">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            <state key="normal" image="comment-bar-voice"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lx8-c0-aP9">
+                            <rect key="frame" x="339" y="6" width="28" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="28" id="bF3-WM-7gr"/>
+                            </constraints>
+                            <state key="normal" image="bottom-setting-add"/>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6xR-R5-5ZB">
+                            <rect key="frame" x="44" y="5" width="287" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="6xR-R5-5ZB" firstAttribute="centerY" secondItem="lx8-c0-aP9" secondAttribute="centerY" id="2Ow-ME-CE7"/>
+                        <constraint firstItem="lx8-c0-aP9" firstAttribute="trailing" secondItem="PtH-6O-P78" secondAttribute="trailingMargin" id="46d-Ul-3i7"/>
+                        <constraint firstItem="5LZ-4J-t8t" firstAttribute="centerX" secondItem="6xR-R5-5ZB" secondAttribute="centerX" id="BKt-Kq-eYj"/>
+                        <constraint firstItem="lx8-c0-aP9" firstAttribute="leading" secondItem="6xR-R5-5ZB" secondAttribute="trailing" constant="8" symbolic="YES" id="C2j-Fa-HTS"/>
+                        <constraint firstItem="wvb-kc-n94" firstAttribute="centerY" secondItem="6xR-R5-5ZB" secondAttribute="centerY" id="Pao-6f-2d7"/>
+                        <constraint firstItem="wvb-kc-n94" firstAttribute="leading" secondItem="PtH-6O-P78" secondAttribute="leading" id="alB-CA-hLs"/>
+                        <constraint firstItem="5LZ-4J-t8t" firstAttribute="top" secondItem="PtH-6O-P78" secondAttribute="top" id="bZP-Rm-cQ8"/>
+                        <constraint firstItem="6xR-R5-5ZB" firstAttribute="leading" secondItem="wvb-kc-n94" secondAttribute="trailing" constant="4" id="cf5-QP-g6e"/>
+                        <constraint firstItem="wvb-kc-n94" firstAttribute="bottom" secondItem="5LZ-4J-t8t" secondAttribute="bottom" id="fc7-2r-Uqe"/>
+                        <constraint firstItem="wvb-kc-n94" firstAttribute="top" secondItem="5LZ-4J-t8t" secondAttribute="top" id="tbu-lo-Pcy"/>
+                        <constraint firstItem="5LZ-4J-t8t" firstAttribute="leading" secondItem="wvb-kc-n94" secondAttribute="leading" id="wT2-0q-AuG"/>
+                        <constraint firstAttribute="trailing" secondItem="5LZ-4J-t8t" secondAttribute="trailing" id="xtz-VG-64E"/>
+                        <constraint firstAttribute="bottom" secondItem="5LZ-4J-t8t" secondAttribute="bottom" id="xy1-md-WEi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PtH-6O-P78" firstAttribute="top" secondItem="vGz-xU-hsJ" secondAttribute="bottom" id="A0H-LZ-dbA"/>
+                <constraint firstItem="PtH-6O-P78" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="DrO-6Z-v9s"/>
+                <constraint firstItem="vGz-xU-hsJ" firstAttribute="trailing" secondItem="PtH-6O-P78" secondAttribute="trailing" id="FSv-1b-38X"/>
+                <constraint firstAttribute="trailing" secondItem="vGz-xU-hsJ" secondAttribute="trailing" id="KSP-OB-wHo"/>
+                <constraint firstItem="vGz-xU-hsJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="PmM-vX-Mea"/>
+                <constraint firstItem="vGz-xU-hsJ" firstAttribute="leading" secondItem="PtH-6O-P78" secondAttribute="leading" id="dFz-GW-yBz"/>
+                <constraint firstItem="vGz-xU-hsJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fnc-eh-4Lw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bottom-setting-add" width="28" height="28"/>
+        <image name="comment-bar-bg" width="320" height="49"/>
+        <image name="comment-bar-voice" width="29" height="29"/>
+    </resources>
+</document>
