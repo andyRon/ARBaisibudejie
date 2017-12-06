@@ -37,11 +37,11 @@
 
     [self setupProgressView];
     [self setupLaunchImage];
-//    [self loadAdData];
+    [self loadAdData];
     _timer =  [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(timeChange) userInfo:nil repeats:YES];
 }
 
-- (UIImageView *)addView{
+- (UIImageView *)adView{
     if (_adView == nil) {
         UIImageView *imageView = [[UIImageView alloc] init];
         [self.adContainView addSubview:imageView];
@@ -185,11 +185,5 @@
     NSLog(@"%s", __FUNCTION__);
     [super didReceiveMemoryWarning];
 }
-
-// 视图被销毁
-//- (void)dealloc {
-//    NSLog(@"%s", __FUNCTION__);
-//}
-
 
 @end

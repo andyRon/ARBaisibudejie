@@ -24,7 +24,9 @@
 #import "ARLookingAroundVC.h"
 
 @interface AREssenceNewVC ()
+
 @property (nonatomic, weak) ARSegmentBarVC *segmentBarVC;
+
 @end
 
 @implementation AREssenceNewVC

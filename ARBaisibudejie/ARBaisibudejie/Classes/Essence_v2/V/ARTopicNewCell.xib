@@ -95,6 +95,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="height" constant="30" id="FMS-u4-gOo"/>
                             <constraint firstAttribute="bottom" secondItem="JD6-0Q-rw1" secondAttribute="bottom" id="V0W-Kh-thy"/>
                             <constraint firstAttribute="trailing" secondItem="JD6-0Q-rw1" secondAttribute="trailing" id="YB9-g9-bu2"/>
                             <constraint firstItem="JD6-0Q-rw1" firstAttribute="leading" secondItem="G1N-ih-bZr" secondAttribute="leading" id="fUz-Rd-a2r"/>
@@ -252,10 +253,13 @@
                 <outlet property="sinaV" destination="4H9-Ln-2hk" id="xCa-Fz-lQx"/>
                 <outlet property="spreadBtn" destination="dOA-eA-J4Z" id="5Ee-fI-w0P"/>
                 <outlet property="spreadV" destination="yeR-Z2-PPa" id="Eg0-gs-gF4"/>
+                <outlet property="spreadViewBottomConstraint" destination="iHW-8K-KaS" id="8VA-sA-ApL"/>
+                <outlet property="textHeightConstraint" destination="jcT-7F-75Z" id="Qog-tI-deB"/>
                 <outlet property="textLbl" destination="Yvn-Kr-tR7" id="i3P-E6-nVh"/>
                 <outlet property="toolBarV" destination="i3l-jX-wwo" id="c1c-fI-XSc"/>
                 <outlet property="topCmtTableV" destination="JD6-0Q-rw1" id="eKJ-Wc-4pY"/>
                 <outlet property="topCmtV" destination="G1N-ih-bZr" id="ahT-vm-3WV"/>
+                <outlet property="topCommentViewConstraint" destination="FMS-u4-gOo" id="jaa-CR-73M"/>
                 <outlet property="vip" destination="gPd-R9-YnA" id="dt6-WV-e31"/>
             </connections>
         </tableViewCell>

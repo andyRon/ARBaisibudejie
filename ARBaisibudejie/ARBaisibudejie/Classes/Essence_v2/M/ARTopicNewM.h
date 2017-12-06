@@ -14,7 +14,7 @@
 @interface ARTopicNewM : NSObject
 
 @property (nonatomic, copy) NSString *ID;
-@property (nonatomic, copy) NSString *type;//audio image video gif text
+@property (nonatomic, copy) NSString *type;         //audio image video gif text
 @property (nonatomic, assign) NSInteger status;
 @property (nonatomic, assign) NSInteger up;
 @property (nonatomic, assign) NSInteger down;

@@ -50,6 +50,7 @@
     ARTabBar *tabbar = [[ARTabBar alloc] init];
     [self setValue:tabbar forKey:@"tabBar"];
     [self.tabBar setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
+    
 }
 
 - (void)back {
